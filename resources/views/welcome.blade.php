@@ -12,7 +12,7 @@
                                 <div class="item-slider-1">
                                     <div class="box-content">
                                         <div class="sub clr-pri-2">We Care Child Study</div>
-                                        <div class="title clr-pri-2">Start Learning With</div>
+                                        <div class="title clr-pri-2">Snezana</div>
                                         <div class="box-custom">
                                             <div class="wrap clr-pri-1">Kindco School</div>
                                             <svg data-name="Hero Area" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="112" height="71" viewBox="0 0 112 71">
