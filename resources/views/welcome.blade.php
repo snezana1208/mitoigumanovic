@@ -11,8 +11,8 @@
                             <div class="owl-carousel owl-theme none dots-none">
                                 <div class="item-slider-1">
                                     <div class="box-content">
-                                        <div class="sub clr-pri-2">We Care Child Study</div>
-                                        <div class="title clr-pri-2">Snezana</div>
+                                        <div class="sub clr-pri-2">Основна школа</div>
+                                        <div class="title clr-pri-2">"Мито Игумановић"</div>
                                         <div class="box-custom">
                                             <div class="wrap clr-pri-1">Kindco School</div>
                                             <svg data-name="Hero Area" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="112" height="71" viewBox="0 0 112 71">
@@ -21,11 +21,6 @@
                                                 </g>
                                               </svg>
                                         </div>
-                                        <ul>
-                                            <li class="st-1 fx"><i class="fas fa-check"></i><p class="clr-pri-2">Outdoor Games</p></li>
-                                            <li class="st-2 fx"><i class="fas fa-check"></i><p class="clr-pri-2">Sport Activites</p></li>
-                                            <li class="st-3 fx"><i class="fas fa-check"></i><p class="clr-pri-2">Nutritious Foods</p></li>
-                                        </ul>
                                         <div class="box-btn">
                                             <a href="contact/" class="fl-btn st-12">
                                                 <span class="inner">Contact Us</span>
