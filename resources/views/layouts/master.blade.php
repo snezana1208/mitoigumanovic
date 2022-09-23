@@ -54,8 +54,8 @@
                                             </g>
                                         </svg>
                                         <ul>
-                                            <li class="clr-pri-4">School Location</li>
-                                            <li class="clr-pri-2">55 Main Street, New York</li>
+                                            <li class="clr-pri-4">Локација</li>
+                                            <li class="clr-pri-2">Светосавска 2, 31260 Косјерић</li>
                                         </ul>
                                     </div>
 
@@ -66,8 +66,8 @@
                                             </g>
                                         </svg>
                                         <ul>
-                                            <li class="clr-pri-4">Hotline</li>
-                                            <li class="clr-pri-2">+012 (345) 678</li>
+                                            <li class="clr-pri-4">Број телефона</li>
+                                            <li class="clr-pri-2">031/ 781 - 442</li>
                                         </ul>
                                     </div>
                                     <a href="#" class="menu-bar-right header-menu">
@@ -105,17 +105,13 @@
                                     <nav id="mainnav" class="mainnav st-2">
                                         <ul class="menu">
                                             <li class="menu-item-has-children current-menu-item">
-                                                <a href="#">HOME</a>
-                                                <ul class="sub-menu">
-                                                    <li class="current-item"><a href="index.html">Home 01</a></li>
-                                                    <li><a href="home2.html">Home 02</a></li>
-                                                </ul>
+                                                <a href="#">Почетна</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="about.html">About</a>
+                                                <a href="about.html">О школи</a>
                                             </li>
                                             <li class="menu-item-has-children">
-                                                <a>PAGES</a>
+                                                <a>Организација рада</a>
                                                 <ul class="sub-menu">
                                                     <li class="inner-menu-item"><a href="#">Teachers</a>
                                                         <ul class="sub-menu">
@@ -129,7 +125,7 @@
                                                             <li><a href="classe-details.html">Classes Details</a></li>
                                                         </ul>
                                                     </li>
-                                                    <li class="inner-menu-item"><a href="#">Events</a>
+                                                    <li class="inner-menu-item"><a href="#">Вести</a>
                                                         <ul class="sub-menu">
                                                             <li><a href="events.html">Event</a></li>
                                                             <li><a href="event2.html">Event 2</a></li>
@@ -145,14 +141,14 @@
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children">
-                                                <a>Programs</a>
+                                                <a>Вести</a>
                                                 <ul class="sub-menu">
                                                     <li><a href="program.html">Program</a></li>
                                                     <li><a href="program-details.html">program details</a></li>
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children">
-                                                <a>BLOG</a>
+                                                <a>За ђаке</a>
                                                 <ul class="sub-menu">
                                                     <li><a href="blog-grid.html">blog grid</a></li>
                                                     <li><a href="blog-list.html">blog list</a></li>
@@ -160,14 +156,14 @@
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children">
-                                                <a>SHOP</a>
+                                                <a>За родитеље</a>
                                                 <ul class="sub-menu">
                                                     <li><a href="shop.html">Shop</a></li>
                                                     <li><a href="shop-details.html">Shop Details</a></li>
                                                 </ul>
                                             </li>
                                             <li class="inner">
-                                                <a href="contact.html" >CONTACTS</a>
+                                                <a href="contact.html" >Документа</a>
                                             </li>
                                         </ul>
                                         <!-- /.menu -->
