@@ -110,7 +110,7 @@
                                     <nav id="mainnav" class="mainnav st-2">
                                         <ul class="menu">
                                             <li class="menu-item-has-children current-menu-item">
-                                                <a href="#">Почетна</a>
+                                                <a href="/">Почетна</a>
                                             </li>
                                             <li class="menu-item">
                                                 <a href="/about">О школи</a>
@@ -207,7 +207,7 @@
                                 <h4 class="title-widget fl-ctm-1">Search<span class="ctm-inner"></span></h4>
                                 <div class="form-search-widget">
                                     <form action="#">
-                                        <input type="text" placeholder="Search Here">
+                                        <input type="text" placehfflder="Search Here">
                                         <button><i class="fas fa-search"></i></button>
                                     </form>
                                 </div>
@@ -365,7 +365,7 @@
                                                 </ul>
                                             </div>
                                             <div class="cls-time">
-                                                <p>Every Satarday and Govt Holiday</p>
+                                                <p>Every Satarday andjj Govt Holiday</p>
                                                 <h4 class="title-widget">closed</h4>
                                             </div>
                                        </div>
