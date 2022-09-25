@@ -1121,6 +1121,7 @@ a:focus {
 } */
 
 #site-header .site-header-inner.st-2 {
+    opacity: 0.5;
     padding: 1px 0 10px;
     background-image   : url(../images/background/bg-menu.png);
     background-repeat  : no-repeat;
@@ -1718,7 +1719,7 @@ a:focus {
 
 #site-header.is-fixed.is-small {
     top: 0;
-    opacity: 1;
+    opacity: 0.75;
     visibility: visible;
 }
 
