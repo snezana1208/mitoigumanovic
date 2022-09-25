@@ -36,7 +36,12 @@
 
     <div id="wrapper">
         <div id="page" class="clearfix">
-            <header id="site-header" class="header_main">
+            <div class="top-bar">
+                <div class="inner jus-ct">
+                    <p class="clr-pri-1">Working Jours : Sun - Friday, 08:00 am - 05:00 pm</p>
+                </div>
+            </div>
+             <header id="site-header" class="header_main">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6">
@@ -108,7 +113,7 @@
                                                 <a href="#">Почетна</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="about.html">О школи</a>
+                                                <a href="/about">О школи</a>
                                             </li>
                                             <li class="menu-item-has-children">
                                                 <a>Организација рада</a>
@@ -173,7 +178,7 @@
                         </div>
                     </div>
                 </div>
-                {{-- <div id="sidebar2" class="side-menu__block">
+                <div id="sidebar2" class="side-menu__block">
                     <div class="side-menu__block-overlay custom-cursor__overlay"></div>
                     
                     <div class="inner-sidebar side-menu__block-inner fl-st-1">
@@ -302,8 +307,9 @@
                             </div>
                         </div>
                     </div><!--/inner-sidebar-->
-                </div> --}}
-            </header>   
+                </div>
+            </header>    
+
 
             <main class="">
                 @yield('content')
