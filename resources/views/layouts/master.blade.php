@@ -8,7 +8,7 @@
     <!-- Basic Page Needs -->
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-    <title>Mito Igumanović</title>
+    <title>Мито Игумановић</title>
 
     <meta name="author" content="themesflat.com">
 
@@ -130,31 +130,6 @@
                                         </form>
                                     </div>
                                     <div class="header-contact fx">
-                                        {{-- <a href="#" class="menu-bar-right header-menu">
-                                            <svg data-name="Hero Area" xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 58 58">
-                                                <defs>
-                                                <style>
-                                                    .cls-1 {
-                                                    fill: #b250fe;
-                                                    }
-                                            
-                                                    .cls-1, .cls-2 {
-                                                    fill-rule: evenodd;
-                                                    }
-                                            
-                                                    .cls-2 {
-                                                    fill: #fff;
-                                                    }
-                                                </style>
-                                                </defs>
-                                                <g data-name="Menu Area">
-                                                <g id="Menu_bar" data-name="Menu bar">
-                                                    <path id="Bg" class="cls-1" d="M7.853,2.283c14.9-3.89,29.969-1.4,43.467.819a7.923,7.923,0,0,1,5.735,5.422c3.111,14.141-.428,28.636-1.166,42.981a5.157,5.157,0,0,1-4.773,4.875c-13.49.568-23.463,3.285-41.787,0.9C5.948,56.807,2.348,54.2,1.9,51.7-0.683,37.877.2,23.508,2.194,8.757a8.71,8.71,0,0,1,5.66-6.473"/>
-                                                    <path id="Bar" class="cls-2" d="M16,17H42a2,2,0,0,1,0,4H16A2,2,0,0,1,16,17Zm0,10H42a2,2,0,0,1,0,4H16A2,2,0,0,1,16,27Zm0,10H42a2,2,0,0,1,0,4H16A2,2,0,0,1,16,37Z"/>
-                                                </g>
-                                                </g>
-                                            </svg>
-                                        </a> --}}
 
                                         <div class="inner-contact fx">
                                             <svg data-name="Hero Area" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="49" height="47" viewBox="0 0 49 47">
@@ -164,7 +139,7 @@
                                                 </g>
                                                 </g>
                                             </svg>
-                                            <ul>
+                                            <ul id="about-id">
                                                 <li class="clr-pri-2">Број телефона</li>
                                                 <li class="clr-pri-2">031/ 781 - 442</li>
                                             </ul>
@@ -176,140 +151,108 @@
                         </div>
                     </div>
                 </div>
-                {{-- <div id="sidebar2" class="side-menu__block">
-                    <div class="side-menu__block-overlay custom-cursor__overlay"></div>
-                    
-                    <div class="inner-sidebar side-menu__block-inner fl-st-1">
-                        <div class="side-menu__top justify-content-end">
-                            <a href="#" class="side-menu__toggler side-menu__close-btn"><img src="assets/images/common/close.png" alt="images"></a>
-                        </div>
-                        <div class="wrap">
-                            <div class="widget widget-quote">
-                                <div class="box-feature">
-                                    <div class="inner">
-                                        <img src="assets/images/post/post-quotes2.jpg" alt="Image">
-                                        <div class="box-icon jus-ali-ct">
-                                            <i class="far fa-quote-right"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="box-content">
-                                    <h5 class="author clr-pri-2">Patrick D. Smith</h5>
-                                    <p class="wrap f-rubik">
-                                        Sit amet consectetur adipiscing elit sed do eiusmod tempor didunt ut labore et dolore magna
-                                    </p>
-                                </div>
-                            </div>
 
-                            <div class="widget widget-search st-2">
-                                <h4 class="title-widget fl-ctm-1">Search<span class="ctm-inner"></span></h4>
-                                <div class="form-search-widget">
-                                    <form action="#">
-                                        <input type="text" placeholder="Search Here">
-                                        <button><i class="fas fa-search"></i></button>
-                                    </form>
-                                </div>
-                            </div>
-
-                            <div class="widget widget-category st-2">
-                                <h4 class="title-widget fl-ctm-1">category<span class="ctm-inner"></span></h4>
-                                <div class="list-category">
-                                    <ul>
-                                        <li class="fx"><span class="st wd-ctm">Arts &amp; Drawing</span><span class="st">05</span></li>
-                                        <li class="fx"><span class="st wd-ctm">Basic Language</span><span class="st">02</span></li>
-                                        <li class="fx"><span class="st wd-ctm">Graphics Design</span><span class="st">07</span></li>
-                                        <li class="fx"><span class="st wd-ctm">Web Development</span><span class="st">04</span></li>
-                                        <li class="fx"><span class="st wd-ctm">Lifestyle</span><span class="st">06</span></li>
-                                        <li class="fx"><span class="st wd-ctm">GYM &amp; Gaming</span><span class="st">05</span></li>
-                                        <li class="fx"><span class="st wd-ctm">Events &amp; Party</span><span class="st">05</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="widget widget-news st-2">
-                                <h4 class="title-widget fl-ctm-1">recent news<span class="ctm-inner"></span></h4>
-                                <ul class="list-news">
-                                    <li class="fx">
-                                        <img src="assets/images/thumbnails/widget1.jpg" alt="Image" class="feature">
-                                        <ul class="box-content">
-                                            <li><h6 class="title"><a href="blog-single.html">Bake Layers Accesilit Testing Supporte</a></h6></li>
-                                            <li><a href="blog-single.html" class="fx meta-news clr-pri-4"><i class="far fa-calendar-alt"></i><span class="f-rubik">25 nov 2021</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="fx">
-                                        <img src="assets/images/thumbnails/widget2.jpg" alt="Image" class="feature">
-                                        <ul class="box-content">
-                                            <li><h6 class="title"><a href="blog-single.html">Bake Layers Accesilit Testin Supporte</a></h6></li>
-                                            <li><a href="blog-single.html" class="fx meta-news clr-pri-4"><i class="far fa-calendar-alt"></i><span class="f-rubik">25 nov 2021</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="fx">
-                                        <img src="assets/images/thumbnails/widget3.jpg" alt="Image" class="feature">
-                                        <ul class="box-content">
-                                            <li><h6 class="title"><a href="blog-single.html">Bake Layers Accesilit Testin Supporte</a></h6></li>
-                                            <li><a href="blog-single.html" class="fx meta-news clr-pri-4"><i class="far fa-calendar-alt"></i><span class="f-rubik">25 nov 2021</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="fx">
-                                        <img src="assets/images/thumbnails/widget4.jpg" alt="Image" class="feature">
-                                        <ul class="box-content">
-                                            <li><h6 class="title"><a href="blog-single.html">Bake Layers Accesilit Testin Supporte</a></h6></li>
-                                            <li><a href="blog-single.html" class="fx meta-news clr-pri-4"><i class="far fa-calendar-alt"></i><span class="f-rubik">25 nov 2021</span></a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div class="widget widget-tag st-2">
-                                <h4 class="title-widget fl-ctm-1">best tags<span class="ctm-inner"></span></h4>
-                                <ul class="list-tag">
-                                    <li><a href="shop-details.html" class="f-rubik active">Technology</a></li>
-                                    <li><a href="shop-details.html" class="f-rubik">service</a></li>
-                                    <li><a href="shop-details.html" class="f-rubik">team</a></li>
-                                    <li><a href="shop-details.html" class="f-rubik">solutions</a></li>
-                                    <li><a href="shop-details.html" class="f-rubik">consultancy</a></li>
-                                    <li><a href="shop-details.html" class="f-rubik">It Company</a></li>
-                                    <li><a href="shop-details.html" class="f-rubik">agency</a></li>
-                                </ul>
-                            </div>
-
-                            <div class="widget widget-gallery st-2">
-                                <h4 class="title-widget fl-ctm-1">photo gallery<span class="ctm-inner"></span></h4>
-                                <div class="list-gallery fx">
-                                    <div class="box-photo">
-                                        <div class="overlay fx"><i class="fal fa-plus"></i></div>
-                                        <img src="assets/images/thumbnails/widget5.jpg" alt="Image">
-                                    </div>
-                                    <div class="box-photo active">
-                                        <div class="overlay fx"><i class="fal fa-plus"></i></div>
-                                        <img src="assets/images/thumbnails/widget1.jpg" alt="Image">
-                                    </div>
-                                    <div class="box-photo">
-                                        <div class="overlay fx"><i class="fal fa-plus"></i></div>
-                                        <img src="assets/images/thumbnails/widget6.jpg" alt="Image">
-                                    </div>
-
-                                    <div class="box-photo">
-                                        <div class="overlay fx"><i class="fal fa-plus"></i></div>
-                                        <img src="assets/images/thumbnails/widget7.jpg" alt="Image">
-                                    </div>
-                                    <div class="box-photo">
-                                        <div class="overlay fx"><i class="fal fa-plus"></i></div>
-                                        <img src="assets/images/thumbnails/widget3.jpg" alt="Image">
-                                    </div>
-                                    <div class="box-photo">
-                                        <div class="overlay fx"><i class="fal fa-plus"></i></div>
-                                        <img src="assets/images/thumbnails/widget8.jpg" alt="Image">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--/inner-sidebar-->
-                </div> --}}
             </header>     
             <main class="">
                 @yield('content')
             </main> 
+
+            <footer id="footer">
+                <section class="tf-subcribe">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12 col-12">
+                                <div class="subcribe-wp">
+                                    <h2 class="title">Subscribe Our Newsletter</h2>
+                                    <p class="sub f-mulish">Beet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-12">
+                                <div class="subcribe-form fx" id="subscribe-form">
+                                    <form action="#">
+                                        <input type="email" id="subscribe-email" placeholder="Email Address">
+                                        <button class="fl-btn st-7" id="subscribe-button"><span class="inner">Subscribe</span></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="footer-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="widget-footer">
+                                    <div class="widget widget-logo">
+                                        <div class="logo-bottom" id="logo-footer">
+                                            <a href="index.html"><img src="assets/images/logo/logofootert.png" alt="kinco"></a>
+                                        </div>
+                                        <p class="wrap f-mulish">Sit amet consectetur adipiscing elit sed do eiusmod teminci idunt ut labore et dolore magna</p>
+                                        <div class="list-contact">
+                                            <ul>
+                                                <li class="fx"><span><i class="far fa-map-marker-alt"></i> 55 Main Street, New York</span></li>
+                                                <li class="fx"><a href="mailto:hotline@gmail.com"><i class="far fa-envelope"></i> hotline@gmail.com</a></li>
+                                                <li class="fx"><a href="tel:012345678"><i class="fal fa-phone"></i> +012 (345) 678</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="widget widget-business">
+                                       <div class="inner">
+                                            <div class="op-time">
+                                                <h4 class="title-widget">Радно време</h4>
+                                                <ul>
+                                                    <li><span class="f-mulish">Понедељак - Петак</span></li>
+                                                    <li><span class="f-mulish">08 - 17</span></li>
+                                                </ul>
+                                            </div>
+                                            <div class="cls-time">
+                                                <p>Every Satarday and Govt Holiday</p>
+                                                <h4 class="title-widget">closed</h4>
+                                            </div>
+                                       </div>
+                                    </div>
+                                    <div class="widget widget-link">
+                                        <h4 class="title-widget">Our Program</h4>
+                                        <ul class="list-link">
+                                            <li class="fx"><a href="program.html" class="wd-ctm f-mulish">Arts & Drawing</a></li>
+                                            <li class="fx"><a href="program.html" class="wd-ctm f-mulish">Computer Engineering </a></li>
+                                            <li class="fx"><a href="program.html" class="wd-ctm f-mulish">Digital Mathematics</a></li>
+                                            <li class="fx"><a href="program.html" class="wd-ctm f-mulish">Physical Exercise</a></li>
+                                            <li class="fx"><a href="program.html" class="wd-ctm f-mulish">General Science</a></li>
+                                            <li class="fx"><a href="program.html" class="wd-ctm f-mulish">English Basic</a></li>
+                                            <li class="fx"><a href="program.html" class="wd-ctm f-mulish">Social Science</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="widget widget-news st-3">
+                                        <h4 class="title-widget">recent news</h4>
+                                        <ul class="list-news">
+                                            <li class="fx">
+                                                <img src="assets/images/thumbnails/widget9.jpg" alt="Image" class="feature">
+                                                <ul class="box-content">
+                                                    <li><h6 class="title"><a href="blog-grid.html">Useful Code Extened End Developers</a></h6></li>
+                                                    <li><a href="blog-grid.html" class="fx meta-news clr-pri-6"><i class="far fa-calendar-alt"></i>25 dec 2021</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="fx">
+                                                <img src="assets/images/thumbnails/widget10.jpg" alt="Image" class="feature">
+                                                <ul class="box-content">
+                                                    <li><h6 class="title"><a href="blog-grid.html">Useful Code Extened End Developers</a></h6></li>
+                                                    <li><a href="blog-grid.html" class="fx meta-news clr-pri-6"><i class="far fa-calendar-alt"></i>25 dec 2021</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="footer-bottom jus-ct">
+                                    <p class="copy-right">Copyright © 2022, Kinco - Kindergarten HTML Template. Designed by <a href="https://themeforest.net/user/themesflat/portfolio">Themesflat</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
     </div>
     </div>
     <!-- /#wrapper -->

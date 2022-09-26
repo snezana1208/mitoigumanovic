@@ -14,7 +14,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="page-title inner">
-                    <h1 class="title">About Us</h1>
+                    <h1 class="title">О Школи</h1>
                     <div class="breadcrumbs">
                         <ul class="jus-ct">
                             <li><a href="index.html" class="f-rubik">Home</a></li>
