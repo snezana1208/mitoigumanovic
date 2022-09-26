@@ -122,7 +122,7 @@
                             <div class="box-icon st-4">
                                 <i class="fas fa-check"></i>
                             </div>
-                            <h5 class="title"><a href="about.html">Mental Health</a></h5>
+                            <h5 class="title"><a href="about.html">ПРИРЕДБА ЗА РОДИТЕЉЕ ЗА КРАЈ ШКОЛСКЕ ГОДИНЕ</a></h5>
                             <p class="sub f-mulish">Sed ut periciatis unde omis natu voluta</p>
                             <a href="about.html" class="fl-btn st-10">
                                 <span class="inner">read more</span>
@@ -135,7 +135,7 @@
                             <div class="box-icon st-5">
                                 <i class="fas fa-check"></i>
                             </div>
-                            <h5 class="title"><a href="about.html">Event & Party</a></h5>
+                            <h5 class="title"><a href="about.html">ТАКМИЧЕЊА</a></h5>
                             <p class="sub f-mulish">Sed ut periciatis unde omis natu voluta</p>
                             <a href="about.html" class="fl-btn st-10">
                                 <span class="inner">read more</span>
@@ -221,9 +221,9 @@
                     </div>
                     <div class="box-content box">
                         <div class="number-content clr-pri-1">
-                            <span class="number" data-speed="3000" data-to="5693" data-inviewport="yes">5693</span>+
+                            <span class="number" data-speed="3000" data-to="693" data-inviewport="yes">693</span>+
                         </div>
-                        <p class="clr-pri-1">Student Enroll</p>
+                        <p class="clr-pri-1">Укупан број ученика</p>
                     </div>
                 </div>
             </div>
