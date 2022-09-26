@@ -29,9 +29,9 @@
 <body class="counter-scroll header-fixed home2">
 
     <!-- Preloader -->
-    <div id="preload" class="preload">
+    {{-- <div id="preload" class="preload">
         <div class="preload-logo"></div>
-    </div>
+    </div> --}}
 
     <div id="wrapper">
         <div id="page" class="clearfix">
