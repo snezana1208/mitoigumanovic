@@ -17,8 +17,8 @@
                     <h1 class="title">О Школи</h1>
                     <div class="breadcrumbs">
                         <ul class="jus-ct">
-                            <li><a href="index.html" class="f-rubik">Home</a></li>
-                            <li><p class="breadcrumbs-inner f-rubik">About Us</p></li>
+                            <li><a href="/" class="f-rubik">Почетна</a></li>
+                            <li><p class="breadcrumbs-inner f-rubik">О школи</p></li>
                         </ul>
                     </div>
                 </div>

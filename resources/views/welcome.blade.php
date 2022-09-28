@@ -1,4 +1,5 @@
 @extends('layouts.master')
+@section('title', 'Мито Игумановић')
 
 @section('content')
 <section class="tf-slider-2 first-head">
@@ -153,7 +154,7 @@
         <div class="row">
             <div class="col-xl-7 col-lg-7 col-md-12 col-12">
                 <div class="feature-about2">
-                    <img src="assets/images/common/sc-aboutus-2.jpg" alt="Image" class="wow fadeInLeft animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                    <img src="assets/images/common/OS-Mito-Igumanovic-Kosjeric-e1478507232214.jpg" alt="Image" class="wow fadeInLeft animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
                     <div class="box-parents wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">
                         <h5 class="clr-pri-2 title"><span class="clr-pri-3">25638+</span>Parents Say About Our School</h5>
                         <ul class="fx">

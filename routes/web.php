@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,6 +19,13 @@ Route::get('/', function () {
 });
 
 Route::get('/about', 'PagesController@about');
+
+
+Route::get('/parents', 'ParentsController@index');
+
+
+Route::get('/students', 'StudentsController@index');
+
 
 Auth::routes();
 

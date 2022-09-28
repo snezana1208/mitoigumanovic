@@ -616,14 +616,49 @@
     mask-repeat: no-repeat;
     -webkit-mask-size: cover;
 }
-  
+
+.tf-page-title-single .overlay-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #223668;
+    opacity: 0.85;
+    background-size: cover;
+    -webkit-mask-image: url(../images/background/mask3.png);
+    mask-image: url(../images/background/mask3.png);
+    -webkit-mask-position: center center;
+    mask-position: center center;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: cover;
+}
+
+.tf-page-title-single .overlay-single {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* background: url(../images/thumbnails/studying-classroom.jpg) center center no-repeat; */
+    background-size: cover;
+    -webkit-mask-image: url(../images/background/mask3.png);
+    mask-image: url(../images/background/mask3.png);
+    -webkit-mask-position: center center;
+    mask-position: center center;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: cover;
+}
+ 
 .page-title {
     text-align: center;
     padding: 231px 0 160px 0;
 }
 
 .page-title.inner {
-    padding: 185px 0 165px 0;
+    padding: 0px 0 0px 0;
 }
 
 .page-title .title {

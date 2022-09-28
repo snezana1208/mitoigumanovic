@@ -1,14 +1,10 @@
 <!DOCTYPE html>
-<!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
-<!--<![endif]-->
-
+<html lang="en">
 <head>
     <!-- Basic Page Needs -->
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-    <title>Мито Игумановић</title>
+    <title>@yield('title')</title>
 
     <meta name="author" content="themesflat.com">
 
@@ -91,14 +87,14 @@
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children">
-                                                <a>За Ђаке</a>
+                                                <a href="/students">За Ђаке</a>
                                                 <ul class="sub-menu">
                                                     <li><a href="program.html">Program</a></li>
                                                     <li><a href="program-details.html">program details</a></li>
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children">
-                                                <a>ЗА родитеље</a>
+                                                <a href="/parents">ЗА родитеље</a>
                                                 <ul class="sub-menu">
                                                     <li><a href="blog-grid.html">blog grid</a></li>
                                                     <li><a href="blog-list.html">blog list</a></li>
@@ -267,7 +263,7 @@
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/owl.carousel2.thumbs.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/shortcodes.js"></script>
+    <script src="/assets/js/shortcodes.js"></script>
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
 </body>
 
