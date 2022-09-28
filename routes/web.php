@@ -21,10 +21,14 @@ Route::get('/', function () {
 Route::get('/about', 'PagesController@about');
 
 
-Route::get('/parents', 'ParentsController@index');
+Route::get('/parents', 'Parents_postController@index');
+Route::get('/parents.create', 'Parents_postController@create');
+Route::post('/parents.store', 'Parents_postController@store');
 
 
-Route::get('/students', 'StudentsController@index');
+Route::get('/students', 'Students_postController@index');
+Route::get('/students.create', 'Students_postController@create');
+Route::post('/students.store', 'Students_postController@store');
 
 
 Auth::routes();

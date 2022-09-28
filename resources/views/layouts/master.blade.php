@@ -50,10 +50,10 @@
                                 <div class="nav-wrap">
                                     <nav id="mainnav" class="mainnav">
                                         <ul class="menu">
-                                            <li class="menu-item current-menu-item">
+                                            <li class="menu-item {{ request()->is('/') ? 'current-menu-item' : '' }}">
                                                 <a href="/">Почетна</a>
                                             </li>
-                                            <li class="menu-item">
+                                            <li class="menu-item {{ request()->is('about') ? 'current-menu-item' : '' }}" >
                                                 <a href="/about">О школи</a>
                                             </li>
                                             <li class="menu-item-has-children">
@@ -86,14 +86,14 @@
                                                     <li><a href="faq.html">Faq</a></li>  
                                                 </ul>
                                             </li>
-                                            <li class="menu-item-has-children">
+                                            <li class="menu-item-has-children {{ request()->is('students') ? 'current-menu-item' : '' }}">
                                                 <a href="/students">За Ђаке</a>
                                                 <ul class="sub-menu">
                                                     <li><a href="program.html">Program</a></li>
                                                     <li><a href="program-details.html">program details</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="menu-item-has-children">
+                                            <li class="menu-item-has-children {{ request()->is('parents') ? 'current-menu-item' : '' }}">
                                                 <a href="/parents">ЗА родитеље</a>
                                                 <ul class="sub-menu">
                                                     <li><a href="blog-grid.html">blog grid</a></li>

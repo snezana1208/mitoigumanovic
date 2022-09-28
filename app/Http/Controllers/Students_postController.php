@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Students_post;
 use Illuminate\Http\Request;
 
-class ParentsController extends Controller
+class Students_postController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +14,8 @@ class ParentsController extends Controller
      */
     public function index()
     {
-        return view('parents.index');
+        $posts = Students_post::orderBy('created_at', 'desc')->get();
+        return view('students.index', compact('posts'));
     }
 
     /**
@@ -23,7 +25,7 @@ class ParentsController extends Controller
      */
     public function create()
     {
-        //
+        return view('students.create');
     }
 
     /**
@@ -34,7 +36,17 @@ class ParentsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request, [
+            'title' => 'required',
+            'body' => 'required',
+        ]);
+
+
+        $post = new Students_post();
+        $post->title = $request->input('title');
+        $post->body = $request->input('body');
+        $post->save();
+        return redirect('/students');
     }
 
     /**

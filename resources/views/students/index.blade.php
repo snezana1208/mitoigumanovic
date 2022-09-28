@@ -18,6 +18,12 @@
                             <li><p class="breadcrumbs-inner f-rubik">За ђаке</p></li>
                         </ul>
                     </div>
+                    {{-- @if (Auth::user()) --}}
+                        <div>
+                            {{-- <button href="/students.create" class="fl-btn st-1" id="button"><span class="inner">Креирај обавештење</span></button> --}}
+                            <a href="students.create" class="fl-btn st-3"><span class="inner">Креирај обавештење</span></a>
+                        </div>
+                    {{-- @endif --}}
                 </div>
             </div>
         </div>
@@ -27,179 +33,27 @@
 <section class="tf-section tf-blog-grid">
     <div class="container">
         <div class="row">
-            <div class="col-xl-4 col-lg-4 col-md-4 col-12">
-                <div class="box-artice fl-scale st-2 wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">
-                    <div class="box-feature inner-scale"><a href="#"><img src="assets/images/post/box-aricle1.jpg" alt="Image"></a></div>
-                    <div class="box-content">
-                        <div class="meta-post st-1">
-                            <ul class="fx">
-                                <li><a href="blog-single.html" class="fx"><i class="far fa-calendar-alt clr-pri-3"></i>25 Dec 2021</a></li>
-                                <li><a href="blog-single.html" class="fx"><i class="far fa-comment-alt-dots clr-pri-3"></i>Comments (05)</a></li>
-                            </ul>
-                        </div>
-                        <h4 class="title-article-post"><a href="blog-single.html">Useful VS Code Extensions Fronts End Developer Smashing</a></h4>
-                        <div class="btn-rm">
-                            <a href="blog-single.html" class="fl-btn st-4">
-                                <span class="inner">read more</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-12">
-                <div class="box-artice fl-scale st-2 wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">
-                    <div class="box-feature inner-scale"><a href="blog-single.html"><img src="assets/images/post/box-aricle2.jpg" alt="Image"></a></div>
-                    <div class="box-content">
-                        <div class="meta-post st-1">
-                            <ul class="fx">
-                                <li><a href="blog-single.html" class="fx"><i class="far fa-calendar-alt clr-pri-3"></i>25 Dec 2021</a></li>
-                                <li><a href="blog-single.html" class="fx"><i class="far fa-comment-alt-dots clr-pri-3"></i>Comments (05)</a></li>
-                            </ul>
-                        </div>
-                        <h4 class="title-article-post"><a href="blog-single.html">Everything Developers Need Know About Figma World Engine</a></h4>
-                        <div class="btn-rm">
-                            <a href="blog-single.html" class="fl-btn st-4">
-                                <span class="inner">read more</span>
-                            </a>
+            @foreach ($posts as $post)
+                <div class="col-xl-4 col-lg-4 col-md-4 col-12">
+                    <div class="box-artice fl-scale st-2 wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">
+                        <div class="box-feature inner-scale"><a href="#"><img src="assets/images/post/box-aricle1.jpg" alt="Image"></a></div>
+                        <div class="box-content">
+                            <div class="meta-post st-1">
+                                <ul class="fx">
+                                    <li><a href="blog-single.html" class="fx"><i class="far fa-calendar-alt clr-pri-3"></i>{{$post->created_at->toFormattedDateString()}}</a></li>
+                                    {{-- <li><a href="blog-single.html" class="fx"><i class="far fa-comment-alt-dots clr-pri-3"></i>Comments (05)</a></li> --}}
+                                </ul>
+                            </div>
+                            <h4 class="title-article-post"><a href="blog-single.html">{{$post->title}}</a></h4>
+                            <div class="btn-rm">
+                                <a href="blog-single.html" class="fl-btn st-4">
+                                    <span class="inner">read more</span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-12">
-                <div class="box-artice fl-scale st-2 wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">
-                    <div class="box-feature inner-scale"><a href="blog-single.html"><img src="assets/images/post/box-aricle3.jpg" alt="Image"></a></div>
-                    <div class="box-content">
-                        <div class="meta-post st-1">
-                            <ul class="fx">
-                                <li><a href="blog-single.html" class="fx"><i class="far fa-calendar-alt clr-pri-3"></i>25 Dec 2021</a></li>
-                                <li><a href="blog-single.html" class="fx"><i class="far fa-comment-alt-dots clr-pri-3"></i>Comments (05)</a></li>
-                            </ul>
-                        </div>
-                        <h4 class="title-article-post"><a href="blog-single.html">Create A Headless WordPress Site  JAMstack Useful VS Code Extensions Fronts End Developer Smashing</a></h4>
-                        <div class="btn-rm">
-                            <a href="blog-single.html" class="fl-btn st-4">
-                                <span class="inner">read more</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-4 col-lg-4 col-md-4 col-12">
-                <div class="box-artice fl-scale st-2 wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">
-                    <div class="box-feature inner-scale"><a href="blog-single.html"><img src="assets/images/post/box-aricle4.jpg" alt="Image"></a></div>
-                    <div class="box-content">
-                        <div class="meta-post st-1">
-                            <ul class="fx">
-                                <li><a href="blog-single.html" class="fx"><i class="far fa-calendar-alt clr-pri-3"></i>25 Dec 2021</a></li>
-                                <li><a href="blog-single.html" class="fx"><i class="far fa-comment-alt-dots clr-pri-3"></i>Comments (05)</a></li>
-                            </ul>
-                        </div>
-                        <h4 class="title-article-post"><a href="blog-single.html">Useful VS Code Extensions Fronts End Developer Smashing</a></h4>
-                        <div class="btn-rm">
-                            <a href="blog-single.html" class="fl-btn st-4">
-                                <span class="inner">read more</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-12">
-                <div class="box-artice fl-scale st-2 wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">
-                    <div class="box-feature inner-scale"><a href="blog-single.html"><img src="assets/images/post/box-aricle5.jpg" alt="Image"></a></div>
-                    <div class="box-content">
-                        <div class="meta-post st-1">
-                            <ul class="fx">
-                                <li><a href="blog-single.html" class="fx"><i class="far fa-calendar-alt clr-pri-3"></i>25 Dec 2021</a></li>
-                                <li><a href="blog-single.html" class="fx"><i class="far fa-comment-alt-dots clr-pri-3"></i>Comments (05)</a></li>
-                            </ul>
-                        </div>
-                        <h4 class="title-article-post"><a href="blog-single.html">Everything Developers Need Know About Figma World Engine</a></h4>
-                        <div class="btn-rm">
-                            <a href="blog-single.html" class="fl-btn st-4">
-                                <span class="inner">read more</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-12">
-                <div class="box-artice fl-scale st-2 wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">
-                    <div class="box-feature inner-scale"><a href="blog-single.html"><img src="assets/images/post/box-aricle6.jpg" alt="Image"></a></div>
-                    <div class="box-content">
-                        <div class="meta-post st-1">
-                            <ul class="fx">
-                                <li><a href="blog-single.html" class="fx"><i class="far fa-calendar-alt clr-pri-3"></i>25 Dec 2021</a></li>
-                                <li><a href="blog-single.html" class="fx"><i class="far fa-comment-alt-dots clr-pri-3"></i>Comments (05)</a></li>
-                            </ul>
-                        </div>
-                        <h4 class="title-article-post"><a href="blog-single.html">Create A Headless WordPress Site  JAMstack Useful VS Code Extensions Fronts End Developer Smashing</a></h4>
-                        <div class="btn-rm">
-                            <a href="blog-single.html" class="fl-btn st-4">
-                                <span class="inner">read more</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-4 col-lg-4 col-md-4 col-12">
-                <div class="box-artice fl-scale st-2 wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">
-                    <div class="box-feature inner-scale"><a href="blog-single.html"><img src="assets/images/post/box-aricle7.jpg" alt="Image"></a></div>
-                    <div class="box-content">
-                        <div class="meta-post st-1">
-                            <ul class="fx">
-                                <li><a href="blog-single.html" class="fx"><i class="far fa-calendar-alt clr-pri-3"></i>25 Dec 2021</a></li>
-                                <li><a href="blog-single.html" class="fx"><i class="far fa-comment-alt-dots clr-pri-3"></i>Comments (05)</a></li>
-                            </ul>
-                        </div>
-                        <h4 class="title-article-post"><a href="blog-single.html">Useful VS Code Extensions Fronts End Developer Smashing</a></h4>
-                        <div class="btn-rm">
-                            <a href="blog-single.html" class="fl-btn st-4">
-                                <span class="inner">read more</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-12">
-                <div class="box-artice fl-scale st-2 wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">
-                    <div class="box-feature inner-scale"><a href="blog-single.html"><img src="assets/images/post/box-aricle8.jpg" alt="Image"></a></div>
-                    <div class="box-content">
-                        <div class="meta-post st-1">
-                            <ul class="fx">
-                                <li><a href="blog-single.html" class="fx"><i class="far fa-calendar-alt clr-pri-3"></i>25 Dec 2021</a></li>
-                                <li><a href="blog-single.html" class="fx"><i class="far fa-comment-alt-dots clr-pri-3"></i>Comments (05)</a></li>
-                            </ul>
-                        </div>
-                        <h4 class="title-article-post"><a href="blog-single.html">Everything Developers Need Know About Figma World Engine</a></h4>
-                        <div class="btn-rm">
-                            <a href="blog-single.html" class="fl-btn st-4">
-                                <span class="inner">read more</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-12">
-                <div class="box-artice fl-scale st-2 wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">
-                    <div class="box-feature inner-scale"><a href="blog-single.html"><img src="assets/images/post/box-article9.jpg" alt="Image"></a></div>
-                    <div class="box-content">
-                        <div class="meta-post st-1">
-                            <ul class="fx">
-                                <li><a href="blog-single.html" class="fx"><i class="far fa-calendar-alt clr-pri-3"></i>25 Dec 2021</a></li>
-                                <li><a href="blog-single.html" class="fx"><i class="far fa-comment-alt-dots clr-pri-3"></i>Comments (05)</a></li>
-                            </ul>
-                        </div>
-                        <h4 class="title-article-post"><a href="blog-single.html">Create A Headless WordPress Site  JAMstack Useful VS Code Extensions Fronts End Developer Smashing</a></h4>
-                        <div class="btn-rm">
-                            <a href="blog-single.html" class="fl-btn st-4">
-                                <span class="inner">read more</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            @endforeach
 
             <div class="col-12">
                 <div class="themesflat-pagination st-1" data-wow-delay="200ms" data-wow-duration="1500ms">
