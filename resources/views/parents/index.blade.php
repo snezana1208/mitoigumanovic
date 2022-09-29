@@ -20,7 +20,7 @@
                         </ul>
                     </div>
                     {{-- @if (Auth::user()) --}}
-                    <div>
+                    <div class="col-4">
                         {{-- <button href="/students.create" class="fl-btn st-1" id="button"><span class="inner">Креирај обавештење</span></button> --}}
                         <a href="parents.create" class="fl-btn st-3"><span class="inner">Креирај обавештење</span></a>
                     </div>
