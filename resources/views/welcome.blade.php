@@ -85,7 +85,7 @@
                                 <i class="fas fa-check"></i>
                             </div>
                             <h5 class="title"><a href="about.html">СВЕТСКИ ДАН ПЕШАЧЕЊА!</a></h5>
-                            <p class="sub f-mulish">Sed ut periciatis unde omis natu voluta</p>
+                            <p class="sub f-mulish">Данас је Светски дан пешачења!</p>
                             <a href="about.html" class="fl-btn st-10">
                                 <span class="inner">Опширније</span>
                             </a>

@@ -183,12 +183,13 @@
                                         <div class="logo-bottom" id="logo-footer">
                                             <a href="index.html"><img src="assets/images/logo/logofootert.png" alt="kinco"></a>
                                         </div>
-                                        <p class="wrap f-mulish">Sit amet consectetur adipiscing elit sed do eiusmod teminci idunt ut labore et dolore magna</p>
+                                        <p class="wrap f-mulish">За додатне информације посетите</p>
                                         <div class="list-contact">
                                             <ul>
-                                                <li class="fx"><span><i class="far fa-map-marker-alt"></i> 55 Main Street, New York</span></li>
-                                                <li class="fx"><a href="mailto:hotline@gmail.com"><i class="far fa-envelope"></i> hotline@gmail.com</a></li>
-                                                <li class="fx"><a href="tel:012345678"><i class="fal fa-phone"></i> +012 (345) 678</a></li>
+                                                <li class="fx"><span><i class="far fa-map-marker-alt"></i> Светосавска 2
+                                                    31260 Косјерић</span></li>
+                                                <li class="fx"><a href="mailto:hotline@gmail.com"><i class="far fa-envelope"></i> direktor@migumanovic.edu.rs</a></li>
+                                                <li class="fx"><a href="tel:012345678"><i class="fal fa-phone"></i> 031/ 781 - 442</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -202,25 +203,25 @@
                                                 </ul>
                                             </div>
                                             <div class="cls-time">
-                                                <p>Every Satarday and Govt Holiday</p>
-                                                <h4 class="title-widget">closed</h4>
+                                                {{-- <p>Every Satarday and Govt Holiday</p>
+                                                <h4 class="title-widget">closed</h4> --}}
                                             </div>
                                        </div>
                                     </div>
                                     <div class="widget widget-link">
-                                        <h4 class="title-widget">Our Program</h4>
+                                        <h4 class="title-widget">Наши програми</h4>
                                         <ul class="list-link">
-                                            <li class="fx"><a href="program.html" class="wd-ctm f-mulish">Arts & Drawing</a></li>
-                                            <li class="fx"><a href="program.html" class="wd-ctm f-mulish">Computer Engineering </a></li>
-                                            <li class="fx"><a href="program.html" class="wd-ctm f-mulish">Digital Mathematics</a></li>
-                                            <li class="fx"><a href="program.html" class="wd-ctm f-mulish">Physical Exercise</a></li>
-                                            <li class="fx"><a href="program.html" class="wd-ctm f-mulish">General Science</a></li>
-                                            <li class="fx"><a href="program.html" class="wd-ctm f-mulish">English Basic</a></li>
-                                            <li class="fx"><a href="program.html" class="wd-ctm f-mulish">Social Science</a></li>
+                                            <li class="fx"><a href="program.html" class="wd-ctm f-mulish">Распоред часова</a></li>
+                                            <li class="fx"><a href="program.html" class="wd-ctm f-mulish">Онлине настава </a></li>
+                                            <li class="fx"><a href="program.html" class="wd-ctm f-mulish">Упис првака</a></li>
+                                            <li class="fx"><a href="program.html" class="wd-ctm f-mulish">Списак уџбеника</a></li>
+                                            <li class="fx"><a href="program.html" class="wd-ctm f-mulish">Завршни испит</a></li>
+                                            <li class="fx"><a href="program.html" class="wd-ctm f-mulish">Продужени боравак</a></li>
+                                            {{-- <li class="fx"><a href="program.html" class="wd-ctm f-mulish">Social Science</a></li> --}}
                                         </ul>
                                     </div>
                                     <div class="widget widget-news st-3">
-                                        <h4 class="title-widget">recent news</h4>
+                                        <h4 class="title-widget">Најновије вести</h4>
                                         <ul class="list-news">
                                             <li class="fx">
                                                 <img src="assets/images/thumbnails/widget9.jpg" alt="Image" class="feature">

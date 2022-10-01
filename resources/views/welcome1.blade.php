@@ -187,8 +187,8 @@
                                             </g>
                                         </svg>
                                         <ul>
-                                            <li class="clr-pri-4">School Location</li>
-                                            <li class="clr-pri-2">55 Main Street, New York</li>
+                                            <li class="clr-pri-4">Светосавска 2 </li>
+                                            <li class="clr-pri-2">31260 Косјерић</li>
                                         </ul>
                                     </div>
 
@@ -1375,13 +1375,13 @@
                                             <div class="op-time">
                                                 <h4 class="title-widget">opening hours</h4>
                                                 <ul>
-                                                    <li><span class="f-mulish">Sunday - Friday</span></li>
-                                                    <li><span class="f-mulish">08 am - 05 pm</span></li>
+                                                    <li><span class="f-mulish">Понедељак - Петак</span></li>
+                                                    <li><span class="f-mulish">08  - 05 </span></li>
                                                 </ul>
                                             </div>
                                             <div class="cls-time">
-                                                <p>Every Satarday and Govt Holiday</p>
-                                                <h4 class="title-widget">closed</h4>
+                                                {{-- <p>Суб</p>
+                                                <h4 class="title-widget">closed</h4> --}}
                                             </div>
                                        </div>
                                     </div>
