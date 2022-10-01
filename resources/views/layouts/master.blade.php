@@ -154,7 +154,7 @@
             </main> 
 
             <footer id="footer">
-                <section class="tf-subcribe">
+                {{-- <section class="tf-subcribe">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-6 col-md-12 col-12">
@@ -173,7 +173,7 @@
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> --}}
                 <div class="footer-inner">
                     <div class="container">
                         <div class="row">
@@ -220,23 +220,16 @@
                                             {{-- <li class="fx"><a href="program.html" class="wd-ctm f-mulish">Social Science</a></li> --}}
                                         </ul>
                                     </div>
-                                    <div class="widget widget-news st-3">
-                                        <h4 class="title-widget">Најновије вести</h4>
-                                        <ul class="list-news">
-                                            <li class="fx">
-                                                <img src="assets/images/thumbnails/widget9.jpg" alt="Image" class="feature">
-                                                <ul class="box-content">
-                                                    <li><h6 class="title"><a href="blog-grid.html">Useful Code Extened End Developers</a></h6></li>
-                                                    <li><a href="blog-grid.html" class="fx meta-news clr-pri-6"><i class="far fa-calendar-alt"></i>25 dec 2021</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="fx">
-                                                <img src="assets/images/thumbnails/widget10.jpg" alt="Image" class="feature">
-                                                <ul class="box-content">
-                                                    <li><h6 class="title"><a href="blog-grid.html">Useful Code Extened End Developers</a></h6></li>
-                                                    <li><a href="blog-grid.html" class="fx meta-news clr-pri-6"><i class="far fa-calendar-alt"></i>25 dec 2021</a></li>
-                                                </ul>
-                                            </li>
+                                    <div class="widget widget-link">
+                                        <h4 class="title-widget">Важни телефонски бројеви</h4>
+                                        <ul class="list-link">
+                                            <p><span class="f-mulish">Дом здравља 031/ 781 - 253</a></p>
+                                            <p><span class="f-mulish">Полицијска станица 192; 031/ 781 - 523</a></li>
+                                            <p><span class="f-mulish">Ватрогасна станица 193; 031/ 781 - 223</a></li>
+                                            <p><span class="f-mulish">Хитна служба 194; 031/ 781 - 224</a></li>
+                                            <p><span class="f-mulish">Центар за социјални рад 031/ 782 - 541</a></li>
+                                            {{-- <li class="fx"><a href="program.html" class="wd-ctm f-mulish">Продужени боравак</a></li> --}}
+                                            {{-- <li class="fx"><a href="program.html" class="wd-ctm f-mulish">Social Science</a></li> --}}
                                         </ul>
                                     </div>
                                 </div>
