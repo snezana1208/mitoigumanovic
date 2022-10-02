@@ -227,14 +227,15 @@
                                        </div>
                                     </div>
                                     <div class="widget widget-link">
-                                        <h4 class="title-widget">Наши програми</h4>
+                                        <h4 class="title-widget">Контакт адресе</h4>
                                         <ul class="list-link">
-                                            <li class="fx"><a href="program.html" class="wd-ctm f-mulish">Распоред часова</a></li>
-                                            <li class="fx"><a href="program.html" class="wd-ctm f-mulish">Онлине настава </a></li>
-                                            <li class="fx"><a href="program.html" class="wd-ctm f-mulish">Упис првака</a></li>
-                                            <li class="fx"><a href="program.html" class="wd-ctm f-mulish">Списак уџбеника</a></li>
-                                            <li class="fx"><a href="program.html" class="wd-ctm f-mulish">Завршни испит</a></li>
-                                            <li class="fx"><a href="program.html" class="wd-ctm f-mulish">Продужени боравак</a></li>
+                                            <p><span class="f-mulish">Директор школе direktor@migumanovic.edu.rs</a></p>
+                                            <p><span class="f-mulish">Помоћник директора pomocnik@migumanovic.edu.rs</a></p>
+                                            <p><span class="f-mulish">Секретар sekretar@migumanovic.edu.rs</a></p>
+                                            <p><span class="f-mulish">Педагог mgligorijevic@migumanovic.edu.rs</a></p>
+                                            <p><span class="f-mulish">Психолог psiholog@migumanovic.edu.rs</a></p>
+                                            <p><span class="f-mulish">Логопед logopedmito@gmail.com</a></p>
+                                            <p><span class="f-mulish">Библиотека biblioteka@migumanovic.edu.rs</a></p>
                                             {{-- <li class="fx"><a href="program.html" class="wd-ctm f-mulish">Social Science</a></li> --}}
                                         </ul>
                                     </div>

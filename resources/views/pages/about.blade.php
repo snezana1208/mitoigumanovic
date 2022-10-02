@@ -99,13 +99,13 @@
                     </div>
 
                     <div class="inner">
-                        <p class="wrap f-mulish clr-pri-4  wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                        {{-- <p class="wrap f-mulish clr-pri-4  wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
                             Amet consectetur adipiscin elitsed eiusmod tempor incididunt 
                             labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo maecenas accumsan</p>
                         <h4 class="title-line">
                             Most Successful Results Institute For 
                             kindergarten Since 2021
-                        </h4>
+                        </h4> --}}
                         {{-- <ul>
                             <li class="st-1 fx"><i class="fas fa-check"></i><p class="clr-pri-2">Outdoor Games</p></li>
                             <li class="st-2 fx"><i class="fas fa-check"></i><p class="clr-pri-2">Sport Activites</p></li>
@@ -155,7 +155,7 @@
                                 </svg>
                             </div>
                             <div class="box-content">
-                                <h4 class="title"><a href="classes.html">РАЖАНА</a></h4>
+                                <h4 class="title"><a href="classes.html">Ражана</a></h4>
                                 <p class="wrap f-mulish">31265 Ражана, 031/880 197</p>
                                 <a href="classes.html" class="fl-btn st-13">
                                     <span class="inner">Опширније</span>
@@ -173,7 +173,7 @@
                                 </svg>                                            
                             </div>
                             <div class="box-content">
-                                <h4 class="title"><a href="program.html">СЕЧА РЕКА</a></h4>
+                                <h4 class="title"><a href="program.html">Сеча Река</a></h4>
                                 <p class="wrap f-mulish">31262 Сеча Река, 031/887 785</p>
                                 <a href="program.html" class="fl-btn st-13">
                                     <span class="inner">Опширније</span>
@@ -191,7 +191,7 @@
                                 </svg>
                             </div>
                             <div class="box-content">
-                                <h4 class="title"><a href="teacher.html">ДРЕНОВЦИ</a></h4>
+                                <h4 class="title"><a href="teacher.html">Дреновци</a></h4>
                                 <p class="wrap f-mulish">31265 Ражана, 031/880 353</p>
                                 <a href="teacher.html" class="fl-btn st-13">
                                     <span class="inner">Опширније</span>
@@ -209,7 +209,7 @@
                                 </svg>
                             </div>
                             <div class="box-content">
-                                <h4 class="title"><a href="teacher.html">ЗАРИЋИ</a></h4>
+                                <h4 class="title"><a href="teacher.html">Зарићи</a></h4>
                                 <p class="wrap f-mulish">31262 Сеча Река, 063/109 47 94</p>
                                 <a href="teacher.html" class="fl-btn st-13">
                                     <span class="inner">Опширније</span>
@@ -227,7 +227,7 @@
                                 </svg>
                             </div>
                             <div class="box-content">
-                                <h4 class="title"><a href="teacher.html">МУШИЋИ</a></h4>
+                                <h4 class="title"><a href="teacher.html">Мушићи</a></h4>
                                 <p class="wrap f-mulish">31260 Косјерић, 031/886 173 и 063/109 47 92</p>
                                 <a href="teacher.html" class="fl-btn st-13">
                                     <span class="inner">Опширније</span>
@@ -253,7 +253,7 @@
                                 </svg>
                             </div>
                             <div class="box-content">
-                                <h4 class="title"><a href="program.html">СКАКАВЦИ</a></h4>
+                                <h4 class="title"><a href="program.html">Скакавци</a></h4>
                                 <p class="wrap f-mulish">31265 Ражана, 031/880 149</p>
                                 <a href="program.html" class="fl-btn st-13">
                                     <span class="inner">Опширније</span>
@@ -272,7 +272,7 @@
                                 </svg>
                             </div>
                              <div class="box-content">
-                                <h4 class="title"><a href="events.html">ТУБИЋИ</a></h4>
+                                <h4 class="title"><a href="events.html">Тубићи</a></h4>
                                 <p class="wrap f-mulish">31260 Косјерић, 031/783 422</p>
                                 <a href="events.html" class="fl-btn st-13">
                                     <span class="inner">Опширније</span>
@@ -290,7 +290,7 @@
                                 </svg>
                             </div>
                     <div class="box-content">
-                                <h4 class="title"><a href="events.html">БРАЈКОВИЋИ</a></h4>
+                                <h4 class="title"><a href="events.html">Брајковићи</a></h4>
                                 <p class="wrap f-mulish">31260 Косјерић, 031/781 791</p>
                                 <a href="events.html" class="fl-btn st-13">
                                     <span class="inner">Опширније</span>
@@ -308,7 +308,7 @@
                                 </svg>
                             </div>
                             <div class="box-content">
-                                <h4 class="title"><a href="events.html">ПАРАМУН</a></h4>
+                                <h4 class="title"><a href="events.html">Парамун</a></h4>
                                 <p class="wrap f-mulish">31262 Сеча Река, 031/788 616</p>
                                 <a href="events.html" class="fl-btn st-13">
                                     <span class="inner">Опширније</span>
