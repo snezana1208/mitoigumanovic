@@ -57,7 +57,7 @@
                                                 <a href="/about">О школи</a>
                                             </li> --}}
                                             <li class="menu-item-has-children">
-                                                <a>О школи</a>
+                                                <a href="/about">О школи</a>
                                                 <ul class="sub-menu">
                                                     {{-- <li class="inner-menu-item"><a href="#">Историјат</a>
                                                         <ul class="sub-menu">
@@ -134,7 +134,7 @@
                                     </nav>
                                 </div>
                                 <div class="header-right fx">
-                                    <div id="header-search">
+                                    {{-- <div id="header-search">
                                         <a href="#" class="search-box header-search-icon">
                                             <i class="far fa-search"></i>
                                         </a>
@@ -142,7 +142,7 @@
                                             <input type="text" value="" name="s" class="header-search-field" placeholder="Search...">
                                             <button type="submit" class="header-search-submit" title="Search"><i class="fa fa-search"></i></button>
                                         </form>
-                                    </div>
+                                    </div> --}}
                                     <div class="header-contact fx">
 
                                         <div class="inner-contact fx">
@@ -211,7 +211,7 @@
                                             </ul>
                                         </div>
                                     </div>
-                                    <div class="widget widget-business">
+                                    {{-- <div class="widget widget-business">
                                        <div class="inner">
                                             <div class="op-time">
                                                 <h4 class="title-widget">Радно време</h4>
@@ -221,11 +221,11 @@
                                                 </ul>
                                             </div>
                                             <div class="cls-time">
-                                                {{-- <p>Every Satarday and Govt Holiday</p>
-                                                <h4 class="title-widget">closed</h4> --}}
+                                                <p>Every Satarday and Govt Holiday</p>
+                                                <h4 class="title-widget">closed</h4>
                                             </div>
                                        </div>
-                                    </div>
+                                    </div> --}}
                                     <div class="widget widget-link">
                                         <h4 class="title-widget">Контакт адресе</h4>
                                         <ul class="list-link">

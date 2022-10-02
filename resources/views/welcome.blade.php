@@ -343,15 +343,15 @@
                 </div>
             </div>
 
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+            {{-- <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
                 <div class="sc-service st-2 fl-scale wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1400ms">
                     <div class="box-feature inner-scale"><img src="assets/images/common/sc-service-4.jpg" alt="Image"></div>
                     <div class="box-content">
                         <h4 class="title"><a href="program.html" class="clr-pri-1">Music,Videos & Films</a></h4>
-                        {{-- <p class="sub f-mulish clr-pri-1">Quis autem vel eum rehenderit</p> --}}
+                        <p class="sub f-mulish clr-pri-1">Quis autem vel eum rehenderit</p>
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
             {{-- <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
                 <div class="sc-service st-3 fl-scale wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="800ms">
