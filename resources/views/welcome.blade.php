@@ -281,7 +281,7 @@
                         <div class="number-content clr-pri-1">
                             <span class="number" data-speed="3000" data-to="177" data-inviewport="yes">177</span>+
                         </div>
-                        <p class="clr-pri-1">Godine iskustva</p>
+                        <p class="clr-pri-1">Године искуства</p>
                     </div>
                 </div>
             </div>

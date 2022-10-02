@@ -53,13 +53,13 @@
                                             <li class="menu-item {{ request()->is('/') ? 'current-menu-item' : '' }}">
                                                 <a href="/">Почетна</a>
                                             </li>
-                                            <li class="menu-item {{ request()->is('about') ? 'current-menu-item' : '' }}" >
+                                            {{-- <li class="menu-item {{ request()->is('about') ? 'current-menu-item' : '' }}" >
                                                 <a href="/about">О школи</a>
-                                            </li>
+                                            </li> --}}
                                             <li class="menu-item-has-children">
-                                                <a>Вести</a>
+                                                <a>О школи</a>
                                                 <ul class="sub-menu">
-                                                    <li class="inner-menu-item"><a href="#">Teachers</a>
+                                                    {{-- <li class="inner-menu-item"><a href="#">Историјат</a>
                                                         <ul class="sub-menu">
                                                             <li><a href="teacher.html">Teacher</a></li>
                                                             <li><a href="teacher-details.html">Teachers Details</a></li>
@@ -77,28 +77,46 @@
                                                             <li><a href="event2.html">Event 2</a></li>
                                                             <li><a href="event-details.html">Events Details</a></li>
                                                         </ul>
-                                                    </li>
-                                                    <li><a href="calendar.html">Academic Calendar</a></li>
-                                                    <li><a href="testimonials.html">testimonials</a></li> 
-                                                    <li><a href="time-table.html">Time Table</a></li>           
-                                                    <li><a href="gallery.html">gallery</a></li> 
-                                                    <li><a href="pricing.html">pricing</a></li> 
-                                                    <li><a href="faq.html">Faq</a></li>  
+                                                    </li> --}}
+                                                    <li><a href="calendar.html">Историјат</a></li>
+                                                    <li><a href="testimonials.html">Запослени</a></li> 
+                                                    <li><a href="time-table.html">Савет родитеља</a></li>           
+                                                    <li><a href="gallery.html">Библиотека</a></li> 
+                                                    <li><a href="pricing.html">Летопис</a></li> 
+                                                    <li><a href="faq.html">Галерија</a></li>  
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item {{ request()->is('about') ? 'current-menu-item' : '' }}" >
+                                                <a href="/about">Вести</a>
+                                            </li>
+                                            <li class="menu-item-has-children">
+                                                <a>Организација рада</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="calendar.html">Школски календар</a></li>
+                                                    <li><a href="testimonials.html">Звоно</a></li> 
+                                                    <li><a href="time-table.html">Распореди</a></li>           
+                                                    <li><a href="gallery.html">Ваннаставне активности</a></li> 
+                                                    <li><a href="pricing.html">Продужени боравак</a></li>  
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children {{ request()->is('students') ? 'current-menu-item' : '' }}">
                                                 <a href="/students">За Ђаке</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="program.html">Program</a></li>
-                                                    <li><a href="program-details.html">program details</a></li>
+                                                    <li><a href="program.html">Ђачки парламент</a></li>
+                                                    <li><a href="program-details.html">Завршни испит</a></li>
+                                                    <li><a href="program-details.html">Такмичења</a></li>
+                                                    <li><a href="program-details.html">Ученици генерације</a></li>
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children {{ request()->is('parents') ? 'current-menu-item' : '' }}">
-                                                <a href="/parents">ЗА родитеље</a>
+                                                <a href="/parents">За родитеље</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="blog-grid.html">blog grid</a></li>
-                                                    <li><a href="blog-list.html">blog list</a></li>
-                                                    <li><a href="blog-single.html">blog single</a></li>
+                                                    <li><a href="blog-grid.html">Отворена врата</a></li>
+                                                    <li><a href="blog-list.html">Распореди</a></li>
+                                                    <li><a href="blog-single.html">Списак уџбеника</a></li>
+                                                    <li><a href="blog-single.html">Упис првака</a></li>
+                                                    <li><a href="blog-single.html">Психолог саветује</a></li>
+                                                    <li><a href="blog-single.html">Педагог саветује</a></li>
                                                 </ul>
                                             </li>
                                             {{-- <li class="menu-item-has-children">
