@@ -6,8 +6,6 @@
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
     <title>@yield('title')</title>
 
-    <meta name="author" content="themesflat.com">
-
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -42,8 +40,8 @@
                         <div class="col-md-12">
                             <div class="site-header-inner fx"> 
                                 <div id="site-logo" class="clearfix">
-                                    <a href="index.html" class="logo">
-                                        <img  src="assets/images/logo/logodark.png" alt="Kinco">
+                                    <a href="/" class="logo">
+                                        <img  src="assets/images/logo/logo1.jpg" alt="Kinco">
                                     </a>
                                 </div>
                                 <div class="btn-menu"><span></span></div>
@@ -78,12 +76,12 @@
                                                             <li><a href="event-details.html">Events Details</a></li>
                                                         </ul>
                                                     </li> --}}
-                                                    <li><a href="calendar.html">Историјат</a></li>
-                                                    <li><a href="testimonials.html">Запослени</a></li> 
-                                                    <li><a href="time-table.html">Савет родитеља</a></li>           
-                                                    <li><a href="gallery.html">Библиотека</a></li> 
-                                                    <li><a href="pricing.html">Летопис</a></li> 
-                                                    <li><a href="faq.html">Галерија</a></li>  
+                                                    <li><a href="/istorijat">Историјат</a></li>
+                                                    <li><a href="/zaposleni">Запослени</a></li> 
+                                                    <li><a href="/savet_roditelja">Савет родитеља</a></li>           
+                                                    <li><a href="/biblioteka">Библиотека</a></li> 
+                                                    <li><a href="/letopis">Летопис</a></li> 
+                                                    <li><a href="/galerija">Галерија</a></li>  
                                                 </ul>
                                             </li>
                                             <li class="menu-item {{ request()->is('about') ? 'current-menu-item' : '' }}" >
@@ -92,11 +90,11 @@
                                             <li class="menu-item-has-children">
                                                 <a>Организација рада</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="calendar.html">Школски календар</a></li>
-                                                    <li><a href="testimonials.html">Звоно</a></li> 
-                                                    <li><a href="time-table.html">Распореди</a></li>           
-                                                    <li><a href="gallery.html">Ваннаставне активности</a></li> 
-                                                    <li><a href="pricing.html">Продужени боравак</a></li>  
+                                                    <li><a href="/kalendar">Школски календар</a></li>
+                                                    <li><a href="/zvono">Звоно</a></li> 
+                                                    <li><a href="/rasporedi">Распореди</a></li>           
+                                                    <li><a href="/vannastavne_aktivnosti">Ваннаставне активности</a></li> 
+                                                    <li><a href="/produzeni_boravak">Продужени боравак</a></li>  
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children {{ request()->is('students') ? 'current-menu-item' : '' }}">
@@ -199,7 +197,7 @@
                                 <div class="widget-footer">
                                     <div class="widget widget-logo">
                                         <div class="logo-bottom" id="logo-footer">
-                                            <a href="index.html"><img src="assets/images/logo/logofootert.png" alt="kinco"></a>
+                                            {{-- <a href="index.html"><img src="assets/images/logo/logo1.jpg" alt="kinco"></a> --}}
                                         </div>
                                         <p class="wrap f-mulish">За додатне информације посетите</p>
                                         <div class="list-contact">

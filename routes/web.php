@@ -19,6 +19,19 @@ Route::get('/', function () {
 });
 
 Route::get('/about', 'PagesController@about');
+Route::get('/istorijat', 'PagesController@istorijat');
+Route::get('/zaposleni', 'PagesController@zaposleni');
+Route::get('/savet_roditelja', 'PagesController@savet_roditelja');
+Route::get('/biblioteka', 'PagesController@biblioteka');
+Route::get('/letopis', 'PagesController@letopis');
+Route::get('/galerija', 'PagesController@galerija');
+
+Route::get('/kalendar', 'PagesController@kalendar');
+Route::get('/zvono', 'PagesController@zvono');
+Route::get('/rasporedi', 'PagesController@rasporedi');
+Route::get('/vannastavne_aktivnosti', 'PagesController@vannastavne_aktivnosti');
+Route::get('/produzeni_boravak', 'PagesController@produzeni_boravak');
+
 
 
 Route::get('/parents', 'Parents_postController@index');

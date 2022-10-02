@@ -12,7 +12,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="page-title inner">
-                    <h1 class="title">Обавештенја за родитеље</h1>
+                    <h1 class="title">Обавештења за родитеље</h1>
                     <div class="breadcrumbs">
                         <ul class="jus-ct">
                             <li><a href="/" class="f-rubik">Почетна</a></li>
