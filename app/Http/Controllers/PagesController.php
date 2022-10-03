@@ -13,32 +13,32 @@ class PagesController extends Controller
 
     public function istorijat()
     {
-        return view('pages.istorijat');
+        return view('pages.o_skoli.istorijat');
     }
 
     public function zaposleni()
     {
-        return view('pages.zaposleni');
+        return view('pages.o_skoli.zaposleni');
     }
 
     public function savet_roditelja()
     {
-        return view('pages.savet_roditelja');
+        return view('pages.o_skoli.savet_roditelja');
     }
 
     public function biblioteka()
     {
-        return view('pages.biblioteka');
+        return view('pages.o_skoli.biblioteka');
     }
 
     public function letopis()
     {
-        return view('pages.letopis');
+        return view('pages.o_skoli.letopis');
     }
 
     public function galerija()
     {
-        return view('pages.galerija');
+        return view('pages.o_skoli.galerija');
     }
 
     public function kalendar()
