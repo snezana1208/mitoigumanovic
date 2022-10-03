@@ -92,7 +92,7 @@
                                                 <ul class="sub-menu">
                                                     <li><a href="/kalendar">Школски календар</a></li>
                                                     <li><a href="/zvono">Звоно</a></li> 
-                                                    <li><a href="/rasporedi">Распореди</a></li>           
+                                                    <li><a href="/raspored">Распореди</a></li>           
                                                     <li><a href="/vannastavne_aktivnosti">Ваннаставне активности</a></li> 
                                                     <li><a href="/produzeni_boravak">Продужени боравак</a></li>  
                                                 </ul>
@@ -100,21 +100,21 @@
                                             <li class="menu-item-has-children {{ request()->is('students') ? 'current-menu-item' : '' }}">
                                                 <a href="/students">За Ђаке</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="program.html">Ђачки парламент</a></li>
-                                                    <li><a href="program-details.html">Завршни испит</a></li>
-                                                    <li><a href="program-details.html">Такмичења</a></li>
-                                                    <li><a href="program-details.html">Ученици генерације</a></li>
+                                                    <li><a href="/djacki_parlament">Ђачки парламент</a></li>
+                                                    <li><a href="/zavrsni_ispit">Завршни испит</a></li>
+                                                    <li><a href="/takmicenja">Такмичења</a></li>
+                                                    <li><a href="/ucenici_generacije">Ученици генерације</a></li>
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children {{ request()->is('parents') ? 'current-menu-item' : '' }}">
                                                 <a href="/parents">За родитеље</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="blog-grid.html">Отворена врата</a></li>
-                                                    <li><a href="blog-list.html">Распореди</a></li>
-                                                    <li><a href="blog-single.html">Списак уџбеника</a></li>
-                                                    <li><a href="blog-single.html">Упис првака</a></li>
-                                                    <li><a href="blog-single.html">Психолог саветује</a></li>
-                                                    <li><a href="blog-single.html">Педагог саветује</a></li>
+                                                    <li><a href="/otvorena_vrata">Отворена врата</a></li>
+                                                    <li><a href="/rasporedi">Распореди</a></li>
+                                                    <li><a href="/spisak_udzbenika">Списак уџбеника</a></li>
+                                                    <li><a href="/upis_prvaka">Упис првака</a></li>
+                                                    <li><a href="/psiholog_savetuje">Психолог саветује</a></li>
+                                                    <li><a href="/pedagog_savetuje">Педагог саветује</a></li>
                                                 </ul>
                                             </li>
                                             {{-- <li class="menu-item-has-children">

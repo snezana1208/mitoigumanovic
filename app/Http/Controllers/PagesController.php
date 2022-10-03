@@ -51,9 +51,9 @@ class PagesController extends Controller
         return view('pages.organizacija_rada.zvono');
     }
 
-    public function rasporedi()
+    public function raspored()
     {
-        return view('pages.organizacija_rada.rasporedi');
+        return view('pages.organizacija_rada.raspored');
     }
 
     public function vannastavne_aktivnosti()
@@ -64,5 +64,55 @@ class PagesController extends Controller
     public function produzeni_boravak()
     {
         return view('pages.organizacija_rada.produzeni_boravak');
+    }
+
+    public function djacki_parlament()
+    {
+        return view('pages.za_djake.djacki_parlament');
+    }
+
+    public function zavrsni_ispit()
+    {
+        return view('pages.za_djake.zavrsni_ispit');
+    }
+
+    public function takmicenja()
+    {
+        return view('pages.za_djake.takmicenja');
+    }
+
+    public function ucenici_generacije()
+    {
+        return view('pages.za_djake.ucenici_generacije');
+    }
+
+    public function otvorena_vrata()
+    {
+        return view('pages.za_roditelje.otvorena_vrata');
+    }
+
+    public function rasporedi()
+    {
+        return view('pages.za_roditelje.rasporedi');
+    }
+
+    public function spisak_udzbenika()
+    {
+        return view('pages.za_roditelje.spisak_udzbenika');
+    }
+
+    public function upis_prvaka()
+    {
+        return view('pages.za_roditelje.upis_prvaka');
+    }
+
+    public function psiholog_savetuje()
+    {
+        return view('pages.za_roditelje.psiholog_savetuje');
+    }
+
+    public function pedagog_savetuje()
+    {
+        return view('pages.za_roditelje.pedagog_savetuje');
     }
 }
