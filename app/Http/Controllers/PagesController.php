@@ -11,6 +11,11 @@ class PagesController extends Controller
         return view('pages.about');
     }
 
+    public function dokumenta()
+    {
+        return view('pages.dokumenta');
+    }
+
     public function istorijat()
     {
         return view('pages.o_skoli.istorijat');

@@ -117,15 +117,8 @@
                                                     <li><a href="/pedagog_savetuje">Педагог саветује</a></li>
                                                 </ul>
                                             </li>
-                                            {{-- <li class="menu-item-has-children">
-                                                <a>SHOP</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="shop.html">Shop</a></li>
-                                                    <li><a href="shop-details.html">Shop Details</a></li>
-                                                </ul>
-                                            </li> --}}
-                                            <li class="inner">
-                                                <a href="contact.html" >Документа</a>
+                                            <li class="menu-item {{ request()->is('about') ? 'current-menu-item' : '' }}">
+                                                <a href="/dokumenta">Документа</a>
                                             </li>
                                         </ul>
                                         <!-- /.menu -->

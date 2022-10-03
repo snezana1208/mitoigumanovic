@@ -19,6 +19,7 @@ Route::get('/', function () {
 });
 
 Route::get('/about', 'PagesController@about');
+Route::get('/dokumenta', 'PagesController@dokumenta');
 Route::get('/istorijat', 'PagesController@istorijat');
 Route::get('/zaposleni', 'PagesController@zaposleni');
 Route::get('/savet_roditelja', 'PagesController@savet_roditelja');
