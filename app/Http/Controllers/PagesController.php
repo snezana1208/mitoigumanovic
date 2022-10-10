@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Letopis;
 use Illuminate\Http\Request;
 
 class PagesController extends Controller
@@ -38,7 +39,8 @@ class PagesController extends Controller
 
     public function letopis()
     {
-        return view('pages.o_skoli.letopis');
+        $posts = Letopis::OrderBy('created_at', 'desc')->get();
+        return view('pages.o_skoli.letopis', compact('posts'));
     }
 
     public function galerija()
