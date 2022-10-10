@@ -131,55 +131,55 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/admin_letopis">
+            <a class="nav-link" href="/admin.letopis">
               <i class="icon-box menu-icon"></i>
               <span class="menu-title">Летопис</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pages/forms/basic_elements.html">
+            <a class="nav-link" href="/admin.vesti">
               <i class="icon-file menu-icon"></i>
               <span class="menu-title">Вести</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pages/charts/chartjs.html">
+            <a class="nav-link" href="/admin.takmicenja">
               <i class="icon-pie-graph menu-icon"></i>
               <span class="menu-title">Такмичења</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pages/tables/basic-table.html">
+            <a class="nav-link" href="admin.upis_prvaka">
               <i class="icon-command menu-icon"></i>
               <span class="menu-title">Упис првака</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pages/icons/feather-icons.html">
+            <a class="nav-link" href="admin.savet_roditelja">
               <i class="icon-help menu-icon"></i>
               <span class="menu-title">Савет родитеља</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pages/icons/feather-icons.html">
+            <a class="nav-link" href="/admin.zavrsni_ispit">
               <i class="icon-help menu-icon"></i>
               <span class="menu-title">Завршни испит</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pages/icons/feather-icons.html">
+            <a class="nav-link" href="admin.ucenici_generacija">
               <i class="icon-help menu-icon"></i>
               <span class="menu-title">Ученици генерација</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pages/icons/feather-icons.html">
+            <a class="nav-link" href="/admin.psiholog">
               <i class="icon-help menu-icon"></i>
               <span class="menu-title">Психолог</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pages/icons/feather-icons.html">
+            <a class="nav-link" href="admin.pedagog">
               <i class="icon-help menu-icon"></i>
               <span class="menu-title">Педагог</span>
             </a>
@@ -209,7 +209,7 @@
         </ul>
       </nav>
       <!-- partial -->
-      <main class="">
+      <main class="container">
         @yield('content')
       </main> 
       <!-- main-panel ends -->
