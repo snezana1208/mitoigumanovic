@@ -45,7 +45,7 @@ Route::get('/upis_prvaka', 'PagesController@upis_prvaka');
 Route::get('/psiholog_savetuje', 'PagesController@psiholog_savetuje');
 Route::get('/pedagog_savetuje', 'PagesController@pedagog_savetuje');
 
-
+Route::resource('/dashboard', 'DashboardController');
 
 
 Route::get('/parents', 'Parents_postController@index');
