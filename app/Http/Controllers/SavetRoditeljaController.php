@@ -52,7 +52,8 @@ class SavetRoditeljaController extends Controller
      */
     public function show($id)
     {
-        //
+        $post = SavetRoditelja::find($id);
+        return view('admin.savet_roditelja.show')->with('post', $post);
     }
 
     /**

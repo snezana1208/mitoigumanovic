@@ -52,7 +52,8 @@ class LetopisController extends Controller
      */
     public function show($id)
     {
-        //
+        $post = Letopis::find($id);
+        return view('admin.letopis.show')->with('post', $post);
     }
 
     /**

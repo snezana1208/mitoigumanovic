@@ -4,18 +4,18 @@
 @section('content')
 <section class="tf-page-title">
     <div class="overlay"></div>
-    <img src="assets/images/background/img1innerpage.png" class="bg-inner1" alt="">
-    <img src="assets/images/background/img2innerpage.png" class="bg-inner2" alt="">
-    <img src="assets/images/background/img4innerpage.png" class="bg-inner3" alt="">
+    <img src="/assets/images/background/img1innerpage.png" class="bg-inner1" alt="">
+    <img src="/assets/images/background/img2innerpage.png" class="bg-inner2" alt="">
+    <img src="/assets/images/background/img4innerpage.png" class="bg-inner3" alt="">
     <div class="container">
         <div class="row">
             <div class="col-12">
                 <div class="page-title inner">
-                    <h1 class="title">Blog List View</h1>
+                    <h1 class="title">Летопис</h1>
                     <div class="breadcrumbs">
                         <ul class="jus-ct">
-                            <li><a href="index.html" class="f-rubik">Home</a></li>
-                            <li><p class="breadcrumbs-inner f-rubik">Blog List</p></li>
+                            <li><a href="/">Почетна</a></li>
+                            <li><p class="breadcrumbs-inner f-rubik">Летопис</p></li>
                         </ul>
                     </div>
                 </div>

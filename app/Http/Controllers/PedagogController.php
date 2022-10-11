@@ -52,7 +52,8 @@ class PedagogController extends Controller
      */
     public function show($id)
     {
-        //
+        $post = Pedagog::find($id);
+        return view('admin.pedagog.show')->with('post', $post);
     }
 
     /**

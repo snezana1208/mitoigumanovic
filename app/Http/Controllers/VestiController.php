@@ -52,7 +52,8 @@ class VestiController extends Controller
      */
     public function show($id)
     {
-        //
+        $post = Vesti::find($id);
+        return view('admin.vesti.show')->with('post', $post);
     }
 
     /**

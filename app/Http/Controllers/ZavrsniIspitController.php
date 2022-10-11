@@ -52,7 +52,8 @@ class ZavrsniIspitController extends Controller
      */
     public function show($id)
     {
-        //
+        $post = ZavrsniIspit::find($id);
+        return view('admin.zavrsni_ispit.show')->with('post', $post);
     }
 
     /**

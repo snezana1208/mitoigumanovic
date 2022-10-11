@@ -52,7 +52,8 @@ class UpisPrvakaController extends Controller
      */
     public function show($id)
     {
-        //
+        $post = UpisPrvaka::find($id);
+        return view('admin.upis_prvaka.show')->with('post', $post);
     }
 
     /**

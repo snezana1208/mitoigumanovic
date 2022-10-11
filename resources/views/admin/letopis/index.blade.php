@@ -49,7 +49,7 @@
                             {{$post->created_at->toFormattedDateString()}}
                             </td>
                             <td>
-                             <a href="/letopis.show/{{$post->id}}"><i class="fa fa-eye" style="font-size:20px"></i></a>
+                             <a href="/admin.letopis.show/{{$post->id}}"><i class="fa fa-eye" style="font-size:20px"></i></a>
                              <a href=""><i class="fa fa-edit" style="font-size:20px"></i></a>
                              <a href=""><i class="fa fa-trash" style="font-size:20px"></i></a>
                             </td>

@@ -10,14 +10,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!-- Theme Style -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 
     <!-- Reponsive -->
-    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">       
+    <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css">       
 
     <!-- Favicon and Touch Icons  -->
-    <link rel="shortcut icon" href="assets/images/Favicon.png">
-    <link rel="apple-touch-icon-precomposed" href="assets/images/Favicon.png">
+    <link rel="shortcut icon" href="/assets/images/Favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="/assets/images/Favicon.png">
 
 </head>
 <body class="counter-scroll header-fixed home2">
@@ -41,7 +41,7 @@
                             <div class="site-header-inner fx"> 
                                 <div id="site-logo" class="clearfix">
                                     <a href="/" class="logo">
-                                        <img  src="assets/images/logo/logo1.jpg" alt="Kinco">
+                                        <img  src="/assets/images/logo/logo1.jpg" alt="Kinco">
                                     </a>
                                 </div>
                                 <div class="btn-menu"><span></span></div>
@@ -260,15 +260,15 @@
     <a id="scroll-top"></a>
 
     <!-- Javascript -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/plugin.js"></script>
-    <script src="assets/js/countto.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/owl.carousel2.thumbs.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/plugin.js"></script>
+    <script src="/assets/js/countto.js"></script>
+    <script src="/assets/js/wow.min.js"></script>
+    <script src="/assets/js/owl.carousel.min.js"></script>
+    <script src="/assets/js/owl.carousel2.thumbs.js"></script>
+    <script src="/assets/js/main.js"></script>
     <script src="/assets/js/shortcodes.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="/assets/js/jquery.magnific-popup.min.js"></script>
 </body>
 
 

@@ -52,7 +52,8 @@ class UceniciGeneracijaController extends Controller
      */
     public function show($id)
     {
-        //
+        $post = UceniciGeneracija::find($id);
+        return view('admin.ucenici_generacija.show')->with('post', $post);
     }
 
     /**

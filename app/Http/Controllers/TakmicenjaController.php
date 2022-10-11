@@ -52,7 +52,8 @@ class TakmicenjaController extends Controller
      */
     public function show($id)
     {
-        //
+        $post = Takmicenja::find($id);
+        return view('admin.takmicenja.show')->with('post', $post);
     }
 
     /**

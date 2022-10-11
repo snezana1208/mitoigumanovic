@@ -50,47 +50,48 @@ Route::resource('/dashboard', 'DashboardController');
 Route::get('/admin.letopis', 'LetopisController@index');
 Route::get('/admin.letopis.create', 'LetopisController@create');
 Route::post('/admin.letopis.store', 'LetopisController@store');
+Route::get('/admin.letopis.show/{id}', 'LetopisController@show');
 
 Route::get('/admin.vesti', 'VestiController@index');
 Route::get('/admin.vesti.create', 'VestiController@create');
 Route::post('/admin.vesti.store', 'VestiController@store');
+Route::get('/admin.vesti.show/{id}', 'VestiController@show');
 
 Route::get('/admin.takmicenja', 'TakmicenjaController@index');
 Route::get('/admin.takmicenja.create', 'TakmicenjaController@create');
 Route::post('/admin.takmicenja.store', 'TakmicenjaController@store');
+Route::get('/admin.takmicenja.show/{id}', 'TakmicenjaController@show');
 
 Route::get('/admin.upis_prvaka', 'UpisPrvakaController@index');
 Route::get('/admin.upis_prvaka.create', 'UpisPrvakaController@create');
 Route::post('/admin.upis_prvaka.store', 'UpisPrvakaController@store');
+Route::get('/admin.upis_prvaka.show/{id}', 'UpisPrvakaController@show');
 
 Route::get('/admin.savet_roditelja', 'SavetRoditeljaController@index');
 Route::get('/admin.savet_roditelja.create', 'SavetRoditeljaController@create');
 Route::post('/admin.savet_roditelja.store', 'SavetRoditeljaController@store');
+Route::get('/admin.savet_roditelja.show/{id}', 'SavetRoditeljaController@show');
 
 Route::get('/admin.zavrsni_ispit', 'ZavrsniIspitController@index');
 Route::get('/admin.zavrsni_ispit.create', 'ZavrsniIspitController@create');
 Route::post('/admin.zavrsni_ispit.store', 'ZavrsniIspitController@store');
+Route::get('/admin.zavrsni_ispit.show/{id}', 'ZavrsniIspitController@show');
 
 Route::get('/admin.ucenici_generacija', 'UceniciGeneracijaController@index');
 Route::get('/admin.ucenici_generacija.create', 'UceniciGeneracijaController@create');
 Route::post('/admin.ucenici_generacija.store', 'UceniciGeneracijaController@store');
+Route::get('/admin.ucenici_generacija.show/{id}', 'UceniciGeneracijaController@show');
 
 Route::get('/admin.psiholog', 'PsihologController@index');
 Route::get('/admin.psiholog.create', 'PsihologController@create');
 Route::post('/admin.psiholog.store', 'PsihologController@store');
+Route::get('/admin.psiholog.show/{id}', 'PsihologController@show');
 
 Route::get('/admin.pedagog', 'PedagogController@index');
 Route::get('/admin.pedagog.create', 'PedagogController@create');
 Route::post('/admin.pedagog.store', 'PedagogController@store');
+Route::get('/admin.pedagog.show/{id}', 'PedagogController@show');
 
-Route::get('/parents', 'Parents_postController@index');
-Route::get('/parents.create', 'Parents_postController@create');
-Route::post('/parents.store', 'Parents_postController@store');
-
-
-Route::get('/students', 'Students_postController@index');
-Route::get('/students.create', 'Students_postController@create');
-Route::post('/students.store', 'Students_postController@store');
 
 
 Auth::routes();

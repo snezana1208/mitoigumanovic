@@ -52,7 +52,8 @@ class PsihologController extends Controller
      */
     public function show($id)
     {
-        //
+        $post = Psiholog::find($id);
+        return view('admin.psiholog.show')->with('post', $post);
     }
 
     /**
