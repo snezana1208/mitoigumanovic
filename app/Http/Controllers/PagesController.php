@@ -3,13 +3,22 @@
 namespace App\Http\Controllers;
 
 use App\Models\Letopis;
+use App\Models\Pedagog;
+use App\Models\Psiholog;
+use App\Models\SavetRoditelja;
+use App\Models\Takmicenja;
+use App\Models\UceniciGeneracija;
+use App\Models\UpisPrvaka;
+use App\Models\Vesti;
+use App\Models\ZavrsniIspit;
 use Illuminate\Http\Request;
 
 class PagesController extends Controller
 {
-    public function about()
+    public function vesti()
     {
-        return view('pages.about');
+        $posts = Vesti::OrderBy('created_at', 'desc')->get();
+        return view('pages.vesti', compact('posts'));
     }
 
     public function dokumenta()
@@ -29,7 +38,8 @@ class PagesController extends Controller
 
     public function savet_roditelja()
     {
-        return view('pages.o_skoli.savet_roditelja');
+        $posts = SavetRoditelja::orderBy('created_at', 'desc')->get();
+        return view('pages.o_skoli.savet_roditelja', compact('posts'));
     }
 
     public function biblioteka()
@@ -80,17 +90,20 @@ class PagesController extends Controller
 
     public function zavrsni_ispit()
     {
-        return view('pages.za_djake.zavrsni_ispit');
+        $posts = ZavrsniIspit::orderBy('created_at', 'desc')->get();
+        return view('pages.za_djake.zavrsni_ispit', compact('posts'));
     }
 
     public function takmicenja()
     {
-        return view('pages.za_djake.takmicenja');
+        $posts = Takmicenja::orderBy('created_at', 'desc')->get();
+        return view('pages.za_djake.takmicenja', compact('posts'));
     }
 
     public function ucenici_generacije()
     {
-        return view('pages.za_djake.ucenici_generacije');
+        $posts = UceniciGeneracija::orderBy('created_at', 'desc')->get();
+        return view('pages.za_djake.ucenici_generacije', compact('posts'));
     }
 
     public function otvorena_vrata()
@@ -110,16 +123,19 @@ class PagesController extends Controller
 
     public function upis_prvaka()
     {
-        return view('pages.za_roditelje.upis_prvaka');
+        $posts = UpisPrvaka::orderBy('created_at', 'desc')->get();
+        return view('pages.za_roditelje.upis_prvaka', compact('posts'));
     }
 
     public function psiholog_savetuje()
     {
-        return view('pages.za_roditelje.psiholog_savetuje');
+        $posts = Psiholog::OrderBy('created_at', 'desc')->get();
+        return view('pages.za_roditelje.psiholog_savetuje', compact('posts'));
     }
 
     public function pedagog_savetuje()
     {
-        return view('pages.za_roditelje.pedagog_savetuje');
+        $posts = Pedagog::OrderBy('created_at', 'desc')->get();
+        return view('pages.za_roditelje.pedagog_savetuje', compact('posts'));
     }
 }

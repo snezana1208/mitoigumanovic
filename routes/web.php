@@ -26,6 +26,7 @@ Route::get('/savet_roditelja', 'PagesController@savet_roditelja');
 Route::get('/biblioteka', 'PagesController@biblioteka');
 Route::get('/letopis', 'PagesController@letopis');
 Route::get('/galerija', 'PagesController@galerija');
+Route::get('/vesti', 'PagesController@vesti');
 
 Route::get('/kalendar', 'PagesController@kalendar');
 Route::get('/zvono', 'PagesController@zvono');

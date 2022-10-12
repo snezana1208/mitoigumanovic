@@ -85,7 +85,7 @@
                                                 </ul>
                                             </li>
                                             <li class="menu-item {{ request()->is('about') ? 'current-menu-item' : '' }}" >
-                                                <a href="/about">Вести</a>
+                                                <a href="/vesti">Вести</a>
                                             </li>
                                             <li class="menu-item-has-children">
                                                 <a>Организација рада</a>
