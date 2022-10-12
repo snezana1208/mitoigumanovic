@@ -33,9 +33,9 @@
                 @foreach ($posts as $post)
                     <article class="box-blog-list">
                         <div class="box-feature wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">
-                            {{-- <img src="assets/images/post/box-blog-list2.jpg" alt="Image"> --}}
+                            <img src="assets/images/post/box-blog-list2.jpg" alt="Image">
                             <div class="overlay jus-ct">
-                                {{-- <a href="https://www.youtube.com/watch?v=CZsARU7HcBI" class="fl-play st-1 popup-youtube"> --}}
+                                <a href="https://www.youtube.com/watch?v=CZsARU7HcBI" class="fl-play st-1 popup-youtube">
                                     <i class="fas fa-play"></i>
                                 </a>
                             </div>
@@ -44,7 +44,7 @@
                             <div class="meta-post st-2">
                                 <ul class="fx">
                                     <li class="fx"><i class="far fa-calendar-alt clr-pri-3"></i>{{$post->created_at->toFormattedDateString()}}</li>
-                                    {{-- <li class="fx"><i class="far fa-comment-alt-dots clr-pri-3"></i>Comments (05)</li> --}}
+                                    <li class="fx"><i class="far fa-comment-alt-dots clr-pri-3"></i>Comments (05)</li>
                                 </ul>
                             </div>
                             <h3 class="title-article-post"><a href="b">{{$post->title}}</a></h3>
