@@ -64,7 +64,8 @@ class SavetRoditeljaController extends Controller
      */
     public function edit($id)
     {
-        //
+        $post = SavetRoditelja::find($id);
+        return view('admin.savet_roditelja.edit', compact('post'));
     }
 
     /**
@@ -76,7 +77,12 @@ class SavetRoditeljaController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $post = SavetRoditelja::find($id);
+        $post->title = $request->input('title');
+        $post->body = $request->input('body');
+        $post->save();
+
+        return redirect('admin.savet_roditelja');
     }
 
     /**
@@ -87,6 +93,8 @@ class SavetRoditeljaController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $post = SavetRoditelja::find($id);
+        $post->delete();
+        return redirect('admin.savet_roditelja');
     }
 }

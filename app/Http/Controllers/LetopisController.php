@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Models\Letopis;
 use Illuminate\Http\Request;
 
+use function PHPUnit\Framework\returnSelf;
+
 class LetopisController extends Controller
 {
     /**
@@ -64,7 +66,8 @@ class LetopisController extends Controller
      */
     public function edit($id)
     {
-        //
+        $post = Letopis::find($id);
+        return view('admin.letopis.edit', compact('post'));
     }
 
     /**
@@ -76,7 +79,12 @@ class LetopisController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $post = Letopis::find($id);
+        $post->title = $request->input('title');
+        $post->body = $request->input('body');
+        $post->save();
+
+        return redirect('admin.letopis');
     }
 
     /**
@@ -87,6 +95,9 @@ class LetopisController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $post = Letopis::find($id);
+        $post->delete();
+        return redirect('admin.letopis');
+
     }
 }

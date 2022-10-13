@@ -53,7 +53,7 @@ class PedagogController extends Controller
     public function show($id)
     {
         $post = Pedagog::find($id);
-        return view('admin.pedagog.show')->with('post', $post);
+        return view('admin.pedagog.show', compact('post'));
     }
 
     /**
@@ -64,7 +64,8 @@ class PedagogController extends Controller
      */
     public function edit($id)
     {
-        //
+        $post = Pedagog::find($id);
+        return view('admin.pedagog.edit', compact('post'));
     }
 
     /**
@@ -76,7 +77,12 @@ class PedagogController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $post = Pedagog::find($id);
+        $post->title = $request->input('title');
+        $post->body = $request->input('body');
+        $post->save();
+
+        return redirect('admin.pedagog');
     }
 
     /**
@@ -87,6 +93,8 @@ class PedagogController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $post = Pedagog::find($id);
+        $post->delete();
+        return redirect('admin.pedagog');
     }
 }

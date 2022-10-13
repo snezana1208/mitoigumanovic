@@ -50,8 +50,12 @@
                             </td>
                             <td>
                              <a href="/admin.psiholog.show/{{$post->id}}"><i class="fa fa-eye" style="font-size:20px"></i></a>
-                             <a href=""><i class="fa fa-edit" style="font-size:20px"></i></a>
-                             <a href=""><i class="fa fa-trash" style="font-size:20px"></i></a>
+                             <a href="/admin.psiholog.edit/{{ $post->id }}"><i class="fa fa-edit" style="font-size:20px"></i></a>
+                             <form action="/admin.psiholog.destroy/{{ $post->id }}" id="myform" method="POST">
+                              @csrf
+                              @method('DELETE')
+                              <a onclick="document.getElementById('myform').submit()" href="#"><i class="fa fa-trash" style="font-size:20px"></i></a>                         
+                            </form>
                             </td>
                           </tr>
                         @endforeach

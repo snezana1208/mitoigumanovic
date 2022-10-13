@@ -50,8 +50,12 @@
                             </td>
                             <td>
                              <a href="/admin.upis_prvaka.show/{{$post->id}}"><i class="fa fa-eye" style="font-size:20px"></i></a>
-                             <a href=""><i class="fa fa-edit" style="font-size:20px"></i></a>
-                             <a href=""><i class="fa fa-trash" style="font-size:20px"></i></a>
+                             <a href="/admin.upis_prvaka.edit/{{$post->id}}"><i class="fa fa-edit" style="font-size:20px"></i></a>
+                             <form action="/admin.upis_prvaka.destroy/{{ $post->id }}" id="myform" method="POST">
+                              @csrf
+                              @method('DELETE')
+                              <a onclick="document.getElementById('myform').submit()" href="#"><i class="fa fa-trash" style="font-size:20px"></i></a>                         
+                            </form>
                             </td>
                           </tr>
                         @endforeach

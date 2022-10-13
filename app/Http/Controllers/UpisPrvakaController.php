@@ -64,7 +64,8 @@ class UpisPrvakaController extends Controller
      */
     public function edit($id)
     {
-        //
+        $post = UpisPrvaka::find($id);
+        return view('admin.upis_prvaka.edit', compact('post'));
     }
 
     /**
@@ -76,7 +77,12 @@ class UpisPrvakaController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $post = UpisPrvaka::find($id);
+        $post->title = $request->input('title');
+        $post->body = $request->input('body');
+        $post->save();
+
+        return redirect('admin.upis_prvaka');
     }
 
     /**
@@ -87,6 +93,8 @@ class UpisPrvakaController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $post = UpisPrvaka::find($id);
+        $post->delete();
+        return redirect('admin.upis_prvaka');
     }
 }
