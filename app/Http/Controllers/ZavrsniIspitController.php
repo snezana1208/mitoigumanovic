@@ -64,7 +64,9 @@ class ZavrsniIspitController extends Controller
      */
     public function edit($id)
     {
-        //
+
+        $post = ZavrsniIspit::find($id);
+        return view('admin.zavrsni_ispit.edit', compact('post'));
     }
 
     /**
@@ -76,7 +78,12 @@ class ZavrsniIspitController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $post = ZavrsniIspit::find($id);
+        $post->title = $request->input('title');
+        $post->body = $request->input('body');
+        $post->save();
+
+        return redirect('admin.zavrsni_ispit');
     }
 
     /**
@@ -87,6 +94,8 @@ class ZavrsniIspitController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $post = ZavrsniIspit::find($id);
+        $post->delete();
+        return redirect('admin.zavrsni_ispit');
     }
 }

@@ -15,11 +15,11 @@
             @csrf
           <div class="form-group">
             <label for="exampleInputName1">Наслов</label>
-            <input type="text" class="form-control" name="title" id="exampleInputName1" >
+            <input type="text" class="form-control" name="title" {{ old('title') }} id="exampleInputName1" >
           </div>
           <div class="form-group" >
             <label for="exampleTextarea1">Текст</label>
-            <textarea class="form-control" rows="20" id="editor" name="body" rows="4"></textarea>
+            <textarea class="form-control" rows="20" id="editor" name="body" rows="4">{!! old('body') !!}</textarea>
           </div>
           <button type="submit" class="btn btn-primary mr-2">Сними</button>
           <button class="btn btn-light">Прекини</button>

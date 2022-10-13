@@ -64,7 +64,8 @@ class PsihologController extends Controller
      */
     public function edit($id)
     {
-        //
+        $post = Psiholog::find($id);
+        return view('admin.psiholog.edit', compact('post'));
     }
 
     /**
@@ -76,7 +77,12 @@ class PsihologController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $post = Psiholog::find($id);
+        $post->title = $request->input('title');
+        $post->body = $request->input('body');
+        $post->save();
+
+        return redirect('admin.psiholog');
     }
 
     /**
@@ -87,6 +93,8 @@ class PsihologController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $post = Psiholog::find($id);
+        $post->delete();
+        return redirect('admin.psiholog');
     }
 }

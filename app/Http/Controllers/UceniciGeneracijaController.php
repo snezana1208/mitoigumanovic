@@ -64,7 +64,8 @@ class UceniciGeneracijaController extends Controller
      */
     public function edit($id)
     {
-        //
+        $post = UceniciGeneracija::find($id);
+        return view('admin.ucenici_generacija.edit', compact('post'));
     }
 
     /**
@@ -76,7 +77,12 @@ class UceniciGeneracijaController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $post = UceniciGeneracija::find($id);
+        $post->title = $request->input('title');
+        $post->body = $request->input('body');
+        $post->save();
+
+        return redirect('admin.ucenici_generacija');
     }
 
     /**
@@ -87,6 +93,8 @@ class UceniciGeneracijaController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $post = UceniciGeneracija::find($id);
+        $post->delete();
+        return redirect('admin.ucenici_generacija');
     }
 }

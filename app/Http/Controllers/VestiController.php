@@ -64,7 +64,8 @@ class VestiController extends Controller
      */
     public function edit($id)
     {
-        //
+        $post = Vesti::find($id);
+        return view('admin.vesti.edit', compact('post'));
     }
 
     /**
@@ -76,7 +77,12 @@ class VestiController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $post = Vesti::find($id);
+        $post->title = $request->input('title');
+        $post->body = $request->input('body');
+        $post->save();
+
+        return redirect('admin.vesti');
     }
 
     /**
@@ -87,6 +93,8 @@ class VestiController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $post = Vesti::find($id);
+        $post->delete();
+        return redirect('admin.vesti');
     }
 }

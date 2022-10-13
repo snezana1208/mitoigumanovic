@@ -64,7 +64,8 @@ class TakmicenjaController extends Controller
      */
     public function edit($id)
     {
-        //
+        $post = Takmicenja::find($id);
+        return view('admin.takmicenja.edit', compact('post'));
     }
 
     /**
@@ -76,7 +77,12 @@ class TakmicenjaController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $post = Takmicenja::find($id);
+        $post->title = $request->input('title');
+        $post->body = $request->input('body');
+        $post->save();
+
+        return redirect('admin.takmicenja');
     }
 
     /**
@@ -87,6 +93,8 @@ class TakmicenjaController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $post = Takmicenja::find($id);
+        $post->delete();
+        return redirect('admin.takmicenja');
     }
 }
