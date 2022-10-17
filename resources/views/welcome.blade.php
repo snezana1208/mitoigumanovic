@@ -315,7 +315,7 @@
 
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                 <div class="sc-service st-3 fl-scale wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="800ms">
-                    <div class="box-feature inner-scale"><img src="assets/images/common/sc-service-1.jpg" alt="Image"></div>
+                    <div class="box-feature inner-scale"><img src="assets/images/common/dnevnik1.jpg" alt="Image"></div>
                     <div class="box-content">
                         <h4 class="title"><a href="/rasporedi" class="clr-pri-1">Распореди</a></h4>
                         {{-- <h4 class="sub f-mulish clr-pri-1">Распореди</h4> --}}
@@ -325,7 +325,7 @@
 
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                 <div class="sc-service st-4 fl-scale wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
-                    <div class="box-feature inner-scale"><img src="assets/images/common/sc-service-2.jpg" alt="Image"></div>
+                    <div class="box-feature inner-scale"><img src="assets/images/common/onlajn-nastava.jpg" alt="Image"></div>
                     <div class="box-content">
                         <h4 class="title"><a href="program.html" class="clr-pri-1">ONLINE настава</a></h4>
                         {{-- <p class="sub f-mulish clr-pri-1">Quis autem vel eum rehenderit</p> --}}
@@ -335,7 +335,7 @@
 
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                 <div class="sc-service fl-scale wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">
-                    <div class="box-feature inner-scale"><img src="assets/images/common/sc-service-3.jpg" alt="Image"></div>
+                    <div class="box-feature inner-scale"><img src="assets/images/common/prvaci.jpg" alt="Image"></div>
                     <div class="box-content">
                         <h4 class="title"><a href="/upis_prvaka" class="clr-pri-1">Упис првака</a></h4>
                         {{-- <p class="sub f-mulish clr-pri-1">Quis autem vel eum rehenderit</p> --}}
@@ -365,7 +365,7 @@
 
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                 <div class="sc-service st-4 fl-scale wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
-                    <div class="box-feature inner-scale"><img src="assets/images/common/sc-service-6.jpg" alt="Image"></div>
+                    <div class="box-feature inner-scale"><img src="assets/images/common/besplatni_udzbenici.jpg" alt="Image"></div>
                     <div class="box-content">
                         <h4 class="title"><a href="spisak_udzbenika" class="clr-pri-1">Списак уџбеника</a></h4>
                         {{-- <p class="sub f-mulish clr-pri-1">Quis autem vel eum rehenderit</p> --}}
@@ -375,7 +375,7 @@
 
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                 <div class="sc-service fl-scale wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">
-                    <div class="box-feature inner-scale"><img src="assets/images/common/sc-service-7.jpg" alt="Image"></div>
+                    <div class="box-feature inner-scale"><img src="assets/images/common/zbirke-za.jpg" alt="Image"></div>
                     <div class="box-content">
                         <h4 class="title"><a href="/zavrsni_ispit" class="clr-pri-1">Завршни испит</a></h4>
                         {{-- <p class="sub f-mulish clr-pri-1">Quis autem vel eum rehenderit</p> --}}
@@ -385,7 +385,7 @@
 
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                 <div class="sc-service st-2 fl-scale wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1400ms">
-                    <div class="box-feature inner-scale"><img src="assets/images/common/sc-service-8.jpg" alt="Image"></div>
+                    <div class="box-feature inner-scale"><img src="assets/images/common/produzeni-boravak.jpg" alt="Image"></div>
                     <div class="box-content">
                         <h4 class="title"><a href="produzeni_boravak" class="clr-pri-1">Продужени боравак</a></h4>
                         {{-- <p class="sub f-mulish clr-pri-1">Quis autem vel eum rehenderit</p> --}}
