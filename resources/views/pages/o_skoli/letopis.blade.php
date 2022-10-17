@@ -51,7 +51,7 @@
                             </p>
                             <div class="box-btn">
                                 <a href="/admin.letopis.show/{{$post->id}}" class="fl-btn st-1">
-                                    <span class="inner">read more</span>
+                                    <span class="inner">Детаљније</span>
                                 </a>
                             </div>
                         </div>
