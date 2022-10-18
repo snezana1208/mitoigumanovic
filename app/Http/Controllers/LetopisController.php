@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Letopis;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 
 use function PHPUnit\Framework\returnSelf;
 
@@ -46,6 +47,23 @@ class LetopisController extends Controller
         return redirect('admin.letopis');
     }
 
+    public function uploadImage(Request $request)
+    {
+        if ($request->hasFile('upload')) {
+            $originName = $request->file('upload')->getClientOriginalName();
+            //Get just filename
+            $fileName = pathinfo($originName, PATHINFO_FILENAME);
+            //Get just extension
+            $extension = $request->file('upload')->getClientOriginalExtension();
+            //Filename to store
+            $fileName = $fileName . '_' . time() . '.' . $extension;
+            $request->file('upload')->storeAs('public/media', $fileName);
+
+            $url = asset('/storage/media/' . $fileName);
+            return response()->json(['filename' => $fileName, 'uploaded' => 1, 'url' => $url]);
+        }
+    }
+
     /**
      * Display the specified resource.
      *
@@ -79,6 +97,20 @@ class LetopisController extends Controller
      */
     public function update(Request $request, $id)
     {
+        if ($request->hasFile('upload')) {
+            $originName = $request->file('upload')->getClientOriginalName();
+            //Get just filename
+            $fileName = pathinfo($originName, PATHINFO_FILENAME);
+            //Get just extension
+            $extension = $request->file('upload')->getClientOriginalExtension();
+            //Filename to store
+            $fileName = $fileName . '_' . time() . '.' . $extension;
+            $request->file('upload')->storeAs('public/media', $fileName);
+
+            $url = asset('/storage/media/' . $fileName);
+            return response()->json(['filename' => $fileName, 'uploaded' => 1, 'url' => $url]);
+        }
+
         $post = Letopis::find($id);
         $post->title = $request->input('title');
         $post->body = $request->input('body');
@@ -96,8 +128,11 @@ class LetopisController extends Controller
     public function destroy($id)
     {
         $post = Letopis::find($id);
+        if($post->upload){
+            //Delete image
+            Storage::delete('/storage/media/'.$post->upload);
+        }
         $post->delete();
         return redirect('admin.letopis');
-
     }
 }

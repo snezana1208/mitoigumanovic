@@ -44,6 +44,23 @@ class PedagogController extends Controller
         return redirect('admin.pedagog');
     }
 
+    public function uploadImage(Request $request)
+    {
+        if ($request->hasFile('upload')) {
+            $originName = $request->file('upload')->getClientOriginalName();
+            //Get just filename
+            $fileName = pathinfo($originName, PATHINFO_FILENAME);
+            //Get just extension
+            $extension = $request->file('upload')->getClientOriginalExtension();
+            //Filename to store
+            $fileName = $fileName . '_' . time() . '.' . $extension;
+            $request->file('upload')->storeAs('public/media', $fileName);
+
+            $url = asset('/storage/media/' . $fileName);
+            return response()->json(['filename' => $fileName, 'uploaded' => 1, 'url' => $url]);
+        }
+    }
+
     /**
      * Display the specified resource.
      *
@@ -77,6 +94,21 @@ class PedagogController extends Controller
      */
     public function update(Request $request, $id)
     {
+        if ($request->hasFile('upload')) {
+            $originName = $request->file('upload')->getClientOriginalName();
+            //Get just filename
+            $fileName = pathinfo($originName, PATHINFO_FILENAME);
+            //Get just extension
+            $extension = $request->file('upload')->getClientOriginalExtension();
+            //Filename to store
+            $fileName = $fileName . '_' . time() . '.' . $extension;
+            $request->file('upload')->storeAs('public/media', $fileName);
+
+            $url = asset('/storage/media/' . $fileName);
+            return response()->json(['filename' => $fileName, 'uploaded' => 1, 'url' => $url]);
+        }
+
+
         $post = Pedagog::find($id);
         $post->title = $request->input('title');
         $post->body = $request->input('body');

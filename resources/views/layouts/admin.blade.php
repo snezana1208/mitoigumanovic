@@ -220,7 +220,22 @@
   <!-- container-scroller -->
   
 
-  @yield('scripts')
+  <script src="https://cdn.ckeditor.com/ckeditor5/35.2.1/classic/ckeditor.js"></script>
+  <script>
+    ClassicEditor
+      .create( document.querySelector( '#editor' ), {
+        ckfinder:{
+          uploadUrl: '{{ route('upload'). '?_token='.csrf_token() }}'
+        }
+      } )
+      .then( editor => {
+              console.log( editor );
+      } )
+      .catch( error => {
+              console.error( error );
+      } );
+  </script>
+  
   <!-- base:js -->
   <script src="/admin/vendors/base/vendor.bundle.base.js"></script>
   <!-- endinject -->

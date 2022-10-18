@@ -19,7 +19,7 @@
           </div>
           <div class="form-group" >
             <label for="exampleTextarea1">Текст</label>
-            <textarea class="form-control" rows="20" id="editor" name="body" rows="4">{!! old('body') !!}</textarea>
+            <textarea class="form-control" rows="20" id="editor" name="body" rows="20">{!! old('body') !!}</textarea>
           </div>
           <button type="submit" class="btn btn-primary mr-2">Сними</button>
           <button class="btn btn-light">Прекини</button>
@@ -30,5 +30,18 @@
 @endsection
 
 @section('scripts')
-
+  <script>
+    ClassicEditor
+      .create( document.querySelector( '#editor' ), {
+        ckfinder:{
+          uploadUrl: '{{ route('upload'). '?_token='.csrf_token() }}'
+        }
+      } )
+      .then( editor => {
+              console.log( editor );
+      } )
+      .catch( error => {
+              console.error( error );
+      } );
+  </script>
 @endsection

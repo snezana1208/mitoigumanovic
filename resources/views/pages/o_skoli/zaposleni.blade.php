@@ -47,14 +47,14 @@
             </div>
             <div class="col-md-12">
                 <div class="flat-tabs tab-time-table wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
-                    <ul class="menu-tab">
+                    {{-- <ul class="menu-tab">
                         <li class="active"><span>Директор</span></li>
                         <li><span>Наставници разредне наставе</span></li>
                         <li><span>Предметни наставници</span></li>
                         <li><span>Стручни сарадници</span></li>
                         <li><span>Школска администрација</span></li>
                         <li><span>Ваннаставно особље</span></li>
-                    </ul>
+                    </ul> --}}
                     <ul class="menu-tab nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
                           <span class="nav-link active" id="direktor-tab" data-bs-toggle="tab" data-bs-target="#direktor" type="button" role="tab" aria-controls="direktor" aria-selected="true">Директор</span>
@@ -151,6 +151,21 @@
                                 <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
                                     <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
                                     <div class="box-content st-1">
+                                        <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Тања Нешковић</a></h4>
+                                        <p class="sub f-mulish clr-pri-1">Наставник разредне наставе</p>
+                                        <div class="social">
+                                            <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                            <a href="#"><i class="fab fa-instagram"></i></a>
+                                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                    <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                    <div class="box-content st-2">
                                         <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Тања Нешковић</a></h4>
                                         <p class="sub f-mulish clr-pri-1">Наставник разредне наставе</p>
                                         <div class="social">

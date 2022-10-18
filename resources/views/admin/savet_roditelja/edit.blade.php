@@ -20,7 +20,7 @@
           </div>
           <div class="form-group" >
             <label for="exampleTextarea1">Текст</label>
-            <textarea class="form-control" rows="20" id="inp_editor1" name="body" rows="4">{{ $post->body }}</textarea>
+            <textarea class="form-control" rows="20" id="editor" name="body" rows="4">{!! Request::old('body', $post->body) !!}</textarea>
           </div>
           <button type="submit" class="btn btn-primary mr-2">Измени</button>
           <button class="btn btn-light">Прекини</button>

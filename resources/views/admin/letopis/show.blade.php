@@ -47,7 +47,8 @@
 
                         </div>
                         <p class="center f-mulish clr-pri-2  wow fadeIn animated" style="text-align: justify;" data-wow-delay="0.3ms" data-wow-duration="1000ms">
-                            {{$post->body}}
+                            {{-- {{$post->body}}  --}}
+                            {!! $post->body !!}
                         </p>
                     </div>
 
