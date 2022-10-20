@@ -63,6 +63,8 @@ class PagesController extends Controller
         return view('pages.organizacija_rada.kalendar');
     }
 
+    
+
     public function zvono()
     {
         return view('pages.organizacija_rada.zvono');
@@ -125,6 +127,11 @@ class PagesController extends Controller
     {
         $posts = UpisPrvaka::orderBy('created_at', 'desc')->get();
         return view('pages.za_roditelje.upis_prvaka', compact('posts'));
+    }
+
+    public function termini()
+    {
+        return view('pages.za_roditelje.termini');
     }
 
     public function psiholog_savetuje()

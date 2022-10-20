@@ -81,7 +81,7 @@
                                                     <li><a href="/zaposleni">Запослени</a></li> 
                                                     <li><a href="/savet_roditelja">Савет родитеља</a></li>           
                                                     <li><a href="/biblioteka">Библиотека</a></li> 
-                                                    <li><a href="/letopis">Летопис</a></li> 
+                                                    {{-- <li><a href="/letopis">Летопис</a></li>  --}}
                                                     <li><a href="/galerija">Галерија</a></li>  
                                                 </ul>
                                             </li>
@@ -93,7 +93,8 @@
                                                 <ul class="sub-menu">
                                                     <li><a href="/kalendar">Школски календар</a></li>
                                                     <li><a href="/zvono">Звоно</a></li> 
-                                                    <li><a href="/raspored">Распореди</a></li>           
+                                                    <li><a href="/raspored">Распореди</a></li>  
+                                                    <li><a href="/jednosmeni_obogaceni_boravak">Jедносменски обогаћени рад</a></li>         
                                                     <li><a href="/vannastavne_aktivnosti">Ваннаставне активности</a></li> 
                                                     <li><a href="/produzeni_boravak">Продужени боравак</a></li>  
                                                 </ul>
@@ -103,6 +104,7 @@
                                                 <ul class="sub-menu">
                                                     <li><a href="/djacki_parlament">Ђачки парламент</a></li>
                                                     <li><a href="/zavrsni_ispit">Завршни испит</a></li>
+                                                    <li><a href="/upis_u_srednje_skole">Упис у средње школе</a></li>
                                                     <li><a href="/takmicenja">Такмичења</a></li>
                                                     <li><a href="/ucenici_generacije">Ученици генерације</a></li>
                                                 </ul>
@@ -110,16 +112,25 @@
                                             <li class="menu-item-has-children {{ request()->is('parents') ? 'current-menu-item' : '' }}">
                                                 <a href="/parents">За родитеље</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="/otvorena_vrata">Отворена врата</a></li>
+                                                    <li class="inner-menu-item current-item"><a href="/otvorena_vrata">Teachers</a>
+                                                        <ul class="sub-menu">
+                                                            <li><a href="/termini">Термини индивидуалних разговора</a></li>
+                                                            <li class="inner-current-item"><a href="teacher-details.html">Teachers Details</a></li>
+                                                        </ul>
+                                                    </li>
                                                     <li><a href="/rasporedi">Распореди</a></li>
                                                     <li><a href="/spisak_udzbenika">Списак уџбеника</a></li>
                                                     <li><a href="/upis_prvaka">Упис првака</a></li>
+                                                    <li><a href="/upis_u_srednje_skole">Упис у средње школе</a></li>
                                                     <li><a href="/psiholog_savetuje">Психолог саветује</a></li>
                                                     <li><a href="/pedagog_savetuje">Педагог саветује</a></li>
                                                 </ul>
                                             </li>
                                             <li class="menu-item {{ request()->is('about') ? 'current-menu-item' : '' }}">
                                                 <a href="/dokumenta">Документа</a>
+                                            </li>
+                                            <li class="menu-item {{ request()->is('about') ? 'current-menu-item' : '' }}">
+                                                <a href="/letopis">Летопис</a>
                                             </li>
                                         </ul>
                                         <!-- /.menu -->
@@ -137,7 +148,7 @@
                                     </div> --}}
                                     <div class="header-contact fx">
 
-                                        <div class="inner-contact fx">
+                                        {{-- <div class="inner-contact fx">
                                             <svg data-name="Hero Area" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="49" height="47" viewBox="0 0 49 47">
                                                 <g data-name="Menu Area">
                                                 <g>
@@ -145,11 +156,11 @@
                                                 </g>
                                                 </g>
                                             </svg>
-                                            <ul id="about-id">
+                                            {{-- <ul id="about-id">
                                                 <li class="clr-pri-2">Број телефона</li>
                                                 <li class="clr-pri-2">031/ 781 - 442</li>
-                                            </ul>
-                                        </div>
+                                            </ul> --}}
+                                        {{-- </div> --}}
                                     </div>
                                     
                                 </div>
@@ -225,7 +236,7 @@
                                             <p><span class="f-mulish">Помоћник директора pomocnik@migumanovic.edu.rs</a></p>
                                             <p><span class="f-mulish">Секретар sekretar@migumanovic.edu.rs</a></p>
                                             <p><span class="f-mulish">Педагог mgligorijevic@migumanovic.edu.rs</a></p>
-                                            <p><span class="f-mulish">Психолог psiholog@migumanovic.edu.rs</a></p>
+                                            <p><span class="f-mulish">Психолог jovana.radovic@migumanovic.edu.rs</a></p>
                                             <p><span class="f-mulish">Логопед logopedmito@gmail.com</a></p>
                                             <p><span class="f-mulish">Библиотека biblioteka@migumanovic.edu.rs</a></p>
                                             {{-- <li class="fx"><a href="program.html" class="wd-ctm f-mulish">Social Science</a></li> --}}

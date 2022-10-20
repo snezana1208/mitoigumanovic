@@ -27,6 +27,7 @@ Route::get('/biblioteka', 'PagesController@biblioteka');
 Route::get('/letopis', 'PagesController@letopis');
 Route::get('/galerija', 'PagesController@galerija');
 Route::get('/vesti', 'PagesController@vesti');
+Route::get('/termini', 'PagesController@termini');
 
 Route::get('/kalendar', 'PagesController@kalendar');
 Route::get('/zvono', 'PagesController@zvono');

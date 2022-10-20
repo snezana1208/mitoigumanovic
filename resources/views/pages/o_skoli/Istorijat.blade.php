@@ -283,8 +283,8 @@
                                 </svg>
                             </div>
                             <div class="box-content">
-                                <h4 class="title"><a href="classes.html">РАЖАНА</a></h4>
-                                <p class="wrap f-mulish">31265 Ражана, 031/880 197</p>
+                                <h4 class="title"><a href="classes.html">Радановци</a></h4>
+                                <p class="wrap f-mulish">31265 Ражана, 031/580 444</p>
                                 <a href="classes.html" class="fl-btn st-13">
                                     <span class="inner">Опширније</span>
                                 </a>

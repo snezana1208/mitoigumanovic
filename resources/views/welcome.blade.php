@@ -209,7 +209,7 @@
     {{-- <img src="assets/images/pattern/fun-fact-2.png" alt="Image" class="fun-fact2"> --}}
     <div class="container">
         <div class="row">
-            <div class="col-xl-3 col-lg-3 col-md-3 col-12">
+            <div class="col-xl-2 col-lg-2 col-md-2 col-12">
                 <div class="sc-fun-fact st-1 themesflat-counter wow fadeIn animated" data-wow-delay="0.2ms" data-wow-duration="1300ms">
                     <div class="box-icon">
                         <svg data-name="Fun fact" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="66" height="66" viewBox="0 0 66 66">
@@ -222,13 +222,13 @@
                     </div>
                     <div class="box-content box">
                         <div class="number-content clr-pri-1">
-                            <span class="number" data-speed="3000" data-to="693" data-inviewport="yes">693</span>+
+                            <span class="number" data-speed="3000" data-to="608" data-inviewport="yes">608</span>+
                         </div>
                         <p class="clr-pri-1">Укупан број ученика</p>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3 col-lg-3 col-md-3 col-12">
+            <div class="col-xl-2 col-lg-2 col-md-2 col-12">
                 <div class="sc-fun-fact st-2 themesflat-counter wow fadeIn animated" data-wow-delay="0.2ms" data-wow-duration="1300ms">
                     <div class="box-icon style2">
                         <svg data-name="Fun fact" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62" height="60" viewBox="0 0 62 60">
@@ -241,13 +241,13 @@
                     </div>
                     <div class="box-content box">
                         <div class="number-content clr-pri-1">
-                            <span class="number" data-speed="3000" data-to="23" data-inviewport="yes">23</span>+
+                            <span class="number" data-speed="3000" data-to="36" data-inviewport="yes">36</span>+
                         </div>
                         <p class="clr-pri-1">Број одељења</p>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3 col-lg-3 col-md-3 col-12">
+            <div class="col-xl-2 col-lg-2 col-md-2 col-12">
                 <div class="sc-fun-fact st-3 themesflat-counter wow fadeIn animated" data-wow-delay="0.2ms" data-wow-duration="1300ms">
                     <div class="box-icon">
                         <svg data-name="Fun fact" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="61" height="55" viewBox="0 0 61 55">
@@ -266,7 +266,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3 col-lg-3 col-md-3 col-12">
+            <div class="col-xl-2 col-lg-2 col-md-2 col-12">
                 <div class="sc-fun-fact st-3 themesflat-counter mgbt-0 wow fadeIn animated" data-wow-delay="0.2ms" data-wow-duration="1300ms">
                     <div class="box-icon">
                         <svg data-name="Fun fact" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="61" height="59" viewBox="0 0 61 59">
@@ -279,9 +279,28 @@
                     </div>
                     <div class="box-content box">
                         <div class="number-content clr-pri-1">
-                            <span class="number" data-speed="3000" data-to="177" data-inviewport="yes">177</span>+
+                            <span class="number" data-speed="3000" data-to="2" data-inviewport="yes">2</span>+
                         </div>
-                        <p class="clr-pri-1">Године искуства</p>
+                        <p class="clr-pri-1">Продужени боравак</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-2 col-12">
+                <div class="sc-fun-fact st-3 themesflat-counter mgbt-0 wow fadeIn animated" data-wow-delay="0.2ms" data-wow-duration="1300ms">
+                    <div class="box-icon">
+                        <svg data-name="Fun fact" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="61" height="59" viewBox="0 0 61 59">
+                            <g id="_04" data-name="04">
+                              <g>
+                                <image id="notes" width="61" height="59" xlink:href="data:img/png;base64,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"/>
+                              </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="box-content box">
+                        <div class="number-content clr-pri-1">
+                            <span class="number" data-speed="3000" data-to="10" data-inviewport="yes">10</span>+
+                        </div>
+                        <p class="clr-pri-1">Обогаћени једносменски рад</p>
                     </div>
                 </div>
             </div>
