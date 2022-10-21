@@ -112,10 +112,9 @@
                                             <li class="menu-item-has-children {{ request()->is('parents') ? 'current-menu-item' : '' }}">
                                                 <a href="/parents">За родитеље</a>
                                                 <ul class="sub-menu">
-                                                    <li class="inner-menu-item current-item"><a href="/otvorena_vrata">Teachers</a>
+                                                    <li class="inner-menu-item current-item"><a href="/otvorena_vrata">Отворена врата</a>
                                                         <ul class="sub-menu">
                                                             <li><a href="/termini">Термини индивидуалних разговора</a></li>
-                                                            <li class="inner-current-item"><a href="teacher-details.html">Teachers Details</a></li>
                                                         </ul>
                                                     </li>
                                                     <li><a href="/rasporedi">Распореди</a></li>
@@ -128,6 +127,12 @@
                                             </li>
                                             <li class="menu-item {{ request()->is('about') ? 'current-menu-item' : '' }}">
                                                 <a href="/dokumenta">Документа</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="/javne_nabavke">Јавне набавке</a></li>
+                                                    <li><a href="/skolska_dokumenta">Школска документа</a></li>
+                                                    <li><a href="/projekti">Пројекти</a></li>
+                                                    <li><a href="/skolski_timovi">Школски тимови</a></li>
+                                                </ul>
                                             </li>
                                             <li class="menu-item {{ request()->is('about') ? 'current-menu-item' : '' }}">
                                                 <a href="/letopis">Летопис</a>

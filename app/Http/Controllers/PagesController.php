@@ -89,12 +89,26 @@ class PagesController extends Controller
     {
         return view('pages.za_djake.djacki_parlament');
     }
+    
+    public function jednosmenski()
+    {
+        return view('pages.organizacija_rada.jednosmenski');
+    }
 
     public function zavrsni_ispit()
     {
         $posts = ZavrsniIspit::orderBy('created_at', 'desc')->get();
         return view('pages.za_djake.zavrsni_ispit', compact('posts'));
     }
+    public function upis_u_srednje_skole()
+    {
+        return view('pages.za_djake.upis_u_srednje_skole');
+    }
+    public function upis()
+    {
+        return view('pages.za_roditelje.upis');
+    }
+
 
     public function takmicenja()
     {
