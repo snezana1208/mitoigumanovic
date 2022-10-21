@@ -94,7 +94,7 @@
                                                     <li><a href="/kalendar">Школски календар</a></li>
                                                     <li><a href="/zvono">Звоно</a></li> 
                                                     <li><a href="/raspored">Распореди</a></li>  
-                                                    <li><a href="/jednosmeni_obogaceni_boravak">Jедносменски обогаћени рад</a></li>         
+                                                    <li><a href="/jednosmenski">Jедносменски обогаћени рад</a></li>         
                                                     <li><a href="/vannastavne_aktivnosti">Ваннаставне активности</a></li> 
                                                     <li><a href="/produzeni_boravak">Продужени боравак</a></li>  
                                                 </ul>

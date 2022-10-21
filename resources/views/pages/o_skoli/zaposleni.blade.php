@@ -124,7 +124,7 @@
                                     <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
                                         <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
                                         <div class="box-content st-1">
-                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Тања Нешковић</a></h4>
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Радојичић Јасна</a></h4>
                                             <p class="sub f-mulish clr-pri-1">Наставник разредне наставе</p>
                                             <div class="social">
                                                 <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
@@ -139,7 +139,22 @@
                                     <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
                                         <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
                                         <div class="box-content st-2">
-                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Тања Нешковић</a></h4>
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Матијевић Добрила</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Наставник разредне наставе</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-1">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Милаковић Слађана</a></h4>
                                             <p class="sub f-mulish clr-pri-1">Наставник разредне наставе</p>
                                             <div class="social">
                                                 <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
@@ -154,7 +169,7 @@
                                     <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
                                         <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
                                         <div class="box-content st-1">
-                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Тања Нешковић</a></h4>
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Рстић Љубица</a></h4>
                                             <p class="sub f-mulish clr-pri-1">Наставник разредне наставе</p>
                                             <div class="social">
                                                 <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
@@ -169,7 +184,7 @@
                                     <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
                                         <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
                                         <div class="box-content st-2">
-                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Тања Нешковић</a></h4>
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Гавриловић Ката</a></h4>
                                             <p class="sub f-mulish clr-pri-1">Наставник разредне наставе</p>
                                             <div class="social">
                                                 <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
@@ -184,8 +199,323 @@
                                     <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
                                         <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
                                         <div class="box-content st-2">
-                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Тања Нешковић</a></h4>
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Гавриловић Зорица</a></h4>
                                             <p class="sub f-mulish clr-pri-1">Наставник разредне наставе</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Симеуновић Мира</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Наставник разредне наставе</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Ђорђевић Нада</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Наставник разредне наставе</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Васовић Славица</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Наставник разредне наставе</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Арсенијевић Милица</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Наставник разредне наставе</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Павловић Миланка</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Наставник разредне наставе</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Лучић Марина</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Наставник разредне наставе</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Ковачевић Данка</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Наставник разредне наставе</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Млађеновић Станика</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Наставник разредне наставе</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Пантовић Мирјана</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Наставник разредне наставе</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Пантовић Мирјана</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Наставник разредне наставе</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Петровић Љиљана</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Наставник разредне наставе</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Витезовић Слађана</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Наставник разредне наставе</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Јоксимовић Михаило</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Наставник разредне наставе</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Јоксимовић Милка</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Наставник разредне наставе</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Тешовић Мирјана</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Наставник разредне наставе</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Божовић Радмила</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Наставник разредне наставе</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Вујић Весна</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Наставник разредне наставе</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Ерчић Бојана</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Наставник разредне наставе</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Дучић Душица</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Наставник разредне наставе</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Дучић Душица</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Наставник разредне наставе</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Јанковић Милисав</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Продужени боравак</p>
                                             <div class="social">
                                                 <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
                                                 <a href="#"><i class="fab fa-twitter"></i></a>
@@ -214,8 +544,8 @@
                                     <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
                                         <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
                                         <div class="box-content st-2">
-                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Тања Нешковић</a></h4>
-                                            <p class="sub f-mulish clr-pri-1">Предметни наставник</p>
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Бабић Светлана</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Српски језик</p>
                                             <div class="social">
                                                 <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
                                                 <a href="#"><i class="fab fa-twitter"></i></a>
@@ -229,8 +559,8 @@
                                     <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
                                         <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
                                         <div class="box-content st-2">
-                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Тања Нешковић</a></h4>
-                                            <p class="sub f-mulish clr-pri-1">Предметни наставник</p>
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Вукотић Филип</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Српски језик</p>
                                             <div class="social">
                                                 <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
                                                 <a href="#"><i class="fab fa-twitter"></i></a>
@@ -244,8 +574,8 @@
                                     <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
                                         <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
                                         <div class="box-content st-2">
-                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Тања Нешковић</a></h4>
-                                            <p class="sub f-mulish clr-pri-1">Предметни наставник</p>
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Гаговић Данијела</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Српски језик</p>
                                             <div class="social">
                                                 <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
                                                 <a href="#"><i class="fab fa-twitter"></i></a>
@@ -259,8 +589,8 @@
                                     <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
                                         <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
                                         <div class="box-content st-2">
-                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Тања Нешковић</a></h4>
-                                            <p class="sub f-mulish clr-pri-1">Предметни наставник</p>
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Петровић Славица</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Српски језик</p>
                                             <div class="social">
                                                 <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
                                                 <a href="#"><i class="fab fa-twitter"></i></a>
@@ -274,8 +604,8 @@
                                     <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
                                         <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
                                         <div class="box-content st-2">
-                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Тања Нешковић</a></h4>
-                                            <p class="sub f-mulish clr-pri-1">Предметни наставник</p>
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Вукотић Сена</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Српски језик</p>
                                             <div class="social">
                                                 <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
                                                 <a href="#"><i class="fab fa-twitter"></i></a>
@@ -289,8 +619,8 @@
                                     <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
                                         <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
                                         <div class="box-content st-2">
-                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Тања Нешковић</a></h4>
-                                            <p class="sub f-mulish clr-pri-1">Предметни наставник</p>
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Јоксимовић Андријана</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Француски језик</p>
                                             <div class="social">
                                                 <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
                                                 <a href="#"><i class="fab fa-twitter"></i></a>
@@ -300,6 +630,487 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Атанасовски Иван</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Француски језик</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Милић Бранислава</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Енглески језик</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Радовановић Марија</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Енглески језик</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Кијачић Весна</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Енглески језик</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Ристовић Зоран</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Енглески језик</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Максић Марина</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Енглески језик</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Јанковић Јелена</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Ликовна култура</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Лекић Горан</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Музичка култура</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Цвијић Милош</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Географија</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Миленко Стефановић</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Географија</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Ђурић Иван</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Историја</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Николић Гордана</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Историја</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Перишић Драгана</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Математика</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Машић Снежана</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Математика</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Томић Данијела</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Математика</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Јоксимовић Љиљана</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Хемија</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Страиновић Крстић Татјана</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Хемија/физика</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Јовановић Мирјана</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Биологија</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Костић Милена</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Биологија</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Караклајић Љиљана</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Техника и технологија</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Караклајић Ацо</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Техника и технологија</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Нешковић Тања</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Техника и технологија</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Спасић Владимир</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Техника и технологија/информатика</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Пантовић Марко</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Информатика и рачунарство</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Снежана Глигоријевић</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Информатика и рачунарствво</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Марковић Томо</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Физичко и здравствено васпитање</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Марковић Драгослав</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Физичко и здравствено васпитање</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Марић Жељко</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Физичко и здравствено васпитање</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Цвијић Немања</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Физичко и здравствено васпитање</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Стевановић Јован</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Верска настава</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Вулета Мила</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Верска настава</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                    <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-content st-2">
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Лучић Марија</a></h4>
+                                            <p class="sub f-mulish clr-pri-1">Информатика/математика</p>
+                                            <div class="social">
+                                                <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
 
