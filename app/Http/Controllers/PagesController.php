@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Galerija;
 use App\Models\Letopis;
 use App\Models\Pedagog;
 use App\Models\Psiholog;
@@ -55,7 +56,8 @@ class PagesController extends Controller
 
     public function galerija()
     {
-        return view('pages.o_skoli.galerija');
+        $images = Galerija::orderBy('created_at', 'desc')->get();
+        return view('pages.o_skoli.galerija', compact('images'));
     }
 
     public function kalendar()
@@ -63,7 +65,7 @@ class PagesController extends Controller
         return view('pages.organizacija_rada.kalendar');
     }
 
-    
+
 
     public function zvono()
     {
@@ -89,7 +91,7 @@ class PagesController extends Controller
     {
         return view('pages.za_djake.djacki_parlament');
     }
-    
+
     public function jednosmenski()
     {
         return view('pages.organizacija_rada.jednosmenski');

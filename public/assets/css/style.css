@@ -1107,6 +1107,7 @@ a:focus {
 #site-header {
     position: absolute;
     width: 100%;
+    background-color: #fff;
     z-index: 9999;
     left: 0;
 }
@@ -1168,6 +1169,14 @@ a:focus {
 .logo.st-2 {
     line-height: 105px;
 }
+
+.gallery{
+    padding: 80px;
+}
+
+ img{
+    max-width: 100%;
+ }
 
 /* header-right */
 .header-right {
