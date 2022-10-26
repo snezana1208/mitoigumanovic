@@ -97,6 +97,16 @@ class PagesController extends Controller
         return view('pages.organizacija_rada.jednosmenski');
     }
 
+    public function rasporedimr()
+    {
+        return view('pages.organizacija_rada.rasporedimr');
+    }
+
+    public function rasporedisr()
+    {
+        return view('pages.organizacija_rada.rasporedisr');
+    }
+
     public function zavrsni_ispit()
     {
         $posts = ZavrsniIspit::orderBy('created_at', 'desc')->get();
@@ -136,6 +146,10 @@ class PagesController extends Controller
     public function rasporedikosj()
     {
         return view('pages.za_roditelje.rasporedikosj');
+    }
+    public function rasporedisc()
+    {
+        return view('pages.za_roditelje.rasporedisc');
     }
 
     public function spisak_udzbenika()

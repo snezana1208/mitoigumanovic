@@ -33,6 +33,8 @@ Route::get('/kalendar', 'PagesController@kalendar');
 Route::get('/zvono', 'PagesController@zvono');
 Route::get('/jednosmenski', 'PagesController@jednosmenski');
 Route::get('/raspored', 'PagesController@raspored');
+Route::get('/rasporedimr', 'PagesController@rasporedimr');
+Route::get('/rasporedisr', 'PagesController@rasporedisr');
 Route::get('/vannastavne_aktivnosti', 'PagesController@vannastavne_aktivnosti');
 Route::get('/produzeni_boravak', 'PagesController@produzeni_boravak');
 
@@ -46,6 +48,7 @@ Route::get('/upis_u_srednje_skole', 'PagesController@upis_u_srednje_skole');
 Route::get('/otvorena_vrata', 'PagesController@otvorena_vrata');
 Route::get('/rasporedi', 'PagesController@rasporedi');
 Route::get('/rasporedikosj', 'PagesController@rasporedikosj');
+Route::get('/rasporedisc', 'PagesController@rasporedisc');
 Route::get('/spisak_udzbenika', 'PagesController@spisak_udzbenika');
 Route::get('/upis_prvaka', 'PagesController@upis_prvaka');
 Route::get('/psiholog_savetuje', 'PagesController@psiholog_savetuje');

@@ -67,8 +67,8 @@
                                                     <li><a href="/zvono">Звоно</a></li> 
                                                     <li><a href="/raspored">Распореди</a>
                                                         <ul class="sub-menu">
-                                                            <li><a href="/termini">Распореди за млађе разреде</a></li>
-                                                            <li><a href="/termini">Распоред за старије разреде</a></li>
+                                                            <li><a href="/rasporedimr">Распореди за млађе разреде</a></li>
+                                                            <li><a href="/rasporedisr">Распоред за старије разреде</a></li>
                                                         </ul>
                                                     </li>  
                                                     <li><a href="/jednosmenski">Једносменски обогаћени рад</a></li>         
