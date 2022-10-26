@@ -133,6 +133,10 @@ class PagesController extends Controller
     {
         return view('pages.za_roditelje.rasporedi');
     }
+    public function rasporedikosj()
+    {
+        return view('pages.za_roditelje.rasporedikosj');
+    }
 
     public function spisak_udzbenika()
     {

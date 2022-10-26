@@ -65,7 +65,12 @@
                                                 <ul class="sub-menu">
                                                     <li><a href="/kalendar">Школски календар</a></li>
                                                     <li><a href="/zvono">Звоно</a></li> 
-                                                    <li><a href="/raspored">Распореди</a></li>  
+                                                    <li><a href="/raspored">Распореди</a>
+                                                        <ul class="sub-menu">
+                                                            <li><a href="/termini">Распореди за млађе разреде</a></li>
+                                                            <li><a href="/termini">Распоред за старије разреде</a></li>
+                                                        </ul>
+                                                    </li>  
                                                     <li><a href="/jednosmenski">Једносменски обогаћени рад</a></li>         
                                                     <li><a href="/vannastavne_aktivnosti">Ваннаставне активности</a></li> 
                                                     <li><a href="/produzeni_boravak">Продужени боравак</a></li>  
@@ -89,7 +94,11 @@
                                                             <li><a href="/termini">Термини индивидуалних разговора</a></li>
                                                         </ul>
                                                     </li>
-                                                    <li><a href="/rasporedi">Распореди</a></li>
+                                                    <li><a href="/rasporedi">Распореди</a>
+                                                        <ul class="sub-menu">
+                                                            <li><a href="/rasporedikosj">Распореди писаних провера за Косјерић</a></li>
+                                                            <li><a href="/rasporedisc">Распоред писаних провера за Сечу реку</a></li>
+                                                        </ul></li>
                                                     <li><a href="/spisak_udzbenika">Списак уџбеника</a></li>
                                                     <li><a href="/upis_prvaka">Упис првака</a></li>
                                                     <li><a href="/upis_u_srednje_skole">Упис у средње школе</a></li>
