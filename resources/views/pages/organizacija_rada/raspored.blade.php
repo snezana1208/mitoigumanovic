@@ -12,11 +12,11 @@
         <div class="row">
             <div class="col-12">
                 <div class="page-title inner">
-                    <h1 class="title">Школско звоно</h1>
+                    <h1 class="title">Рапореди</h1>
                     <div class="breadcrumbs">
                         <ul class="jus-ct">
                             <li><a href="/" class="f-rubik">Почетна</a></li>
-                            <li><p class="breadcrumbs-inner f-rubik">Школско звоно</p></li>
+                            <li><p class="breadcrumbs-inner f-rubik">Рапореди</p></li>
                         </ul>
                     </div>
                 </div>
