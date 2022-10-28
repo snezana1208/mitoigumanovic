@@ -186,6 +186,12 @@
             </a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="admin.galerija">
+              <i class="icon-help menu-icon"></i>
+              <span class="menu-title">Галерија</span>
+            </a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
               <i class="icon-head menu-icon"></i>
               <span class="menu-title">User Pages</span>

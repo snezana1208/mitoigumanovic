@@ -68,6 +68,12 @@ Route::put('/admin.letopis/{posts}', 'LetopisController@update');
 Route::delete('/admin.letopis.destroy/{id}', 'LetopisController@destroy');
 Route::post('/upload', 'LetopisController@uploadImage')->name('upload');
 
+Route::get('/admin.galerija', 'GalerijaController@index');
+Route::get('/admin.galerija.create', 'GalerijaController@create');
+Route::post('/admin.galerija.store', 'GalerijaController@store');
+Route::delete('/admin.galerija.destroy/{id}', 'GalerijaController@destroy');
+
+
 
 Route::get('/admin.vesti', 'VestiController@index');
 Route::get('/admin.vesti.create', 'VestiController@create');

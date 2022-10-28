@@ -49,53 +49,12 @@
                 <div class="col-xl-4 col-lg-4 col-md-4 col-12">
                     <div class="sc-gallery wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">
                         <div class="box-feature">
-                            <img src="assets/images/galerija/{{$image->name}}" alt="{{$image->id}}">
+                            <img src="/storage/galerija/{{$image->name}}" alt="{{$image->id}}">
                             <div class="overlay"></div>
                         </div>
                     </div>
                 </div>
             @endforeach
-
-            {{-- <div class="col-xl-4 col-lg-4 col-md-4 col-12">
-                <div class="sc-gallery wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">
-                    <div class="box-feature">
-                        <img src="assets/images/thumbnails/opel.jpg" alt="Image">
-                        <div class="overlay"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-12">
-                <div class="sc-gallery wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">
-                    <div class="box-feature">
-                        <img src="assets/images/thumbnails/opel.jpg" alt="Image">
-                        <div class="overlay"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-12">
-                <div class="sc-gallery wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">
-                    <div class="box-feature">
-                        <img src="assets/images/thumbnails/opel3.jpg" alt="Image">
-                        <div class="overlay"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-12">
-                <div class="sc-gallery wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">
-                    <div class="box-feature">
-                        <img src="assets/images/thumbnails/opel.jpg" alt="Image">
-                        <div class="overlay"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-12">
-                <div class="sc-gallery wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">
-                    <div class="box-feature">
-                        <img src="assets/images/thumbnails/opel3.jpg" alt="Image">
-                        <div class="overlay"></div>
-                    </div>
-                </div>
-            </div> --}}
         </div>
     </div>
 </section>
