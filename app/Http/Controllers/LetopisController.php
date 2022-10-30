@@ -128,10 +128,6 @@ class LetopisController extends Controller
     public function destroy($id)
     {
         $post = Letopis::find($id);
-        if($post->upload){
-            //Delete image
-            Storage::delete('/storage/media/'.$post->upload);
-        }
         $post->delete();
         return redirect('admin.letopis');
     }

@@ -50,11 +50,13 @@
                             </td>
                             <td>
                              <a href="/admin.letopis.show/{{$post->id}}"><i class="fa fa-eye" style="font-size:20px"></i></a>
-                             <a href="/admin.letopis.edit/{{$post->id}}"><i class="fa fa-edit" style="font-size:20px"></i></a>
+                             <a href="/admin.letopis.edit/{{$post->id}}"><i class="fa fa-edit" style="font-size:18px" ></i></a>
                              <form action="/admin.letopis.destroy/{{ $post->id }}" id="myform" method="POST">
                               @csrf
                               @method('DELETE')
-                              <a onclick="document.getElementById('myform').submit()" href="#"><i class="fa fa-trash" style="font-size:20px"></i></a>                         
+                              {{-- <input type="submit" class="fa fa-trash"  value="" style="border:none;" > --}}
+                              <button style="border:none;" type="submit"><a href="#"><i class="fa fa-trash" style="font-size:20px"></i></a> </button>
+                              {{-- <a onclick="document.getElementById('myform').submit()" href="admin.letopis.destroy/{{ $post->id }}"><i class="fa fa-trash" style="font-size:20px"></i></a>                          --}}
                             </form>
                             </td>
                           </tr>

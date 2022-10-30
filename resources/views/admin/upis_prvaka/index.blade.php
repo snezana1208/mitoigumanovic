@@ -54,7 +54,7 @@
                              <form action="/admin.upis_prvaka.destroy/{{ $post->id }}" id="myform" method="POST">
                               @csrf
                               @method('DELETE')
-                              <a onclick="document.getElementById('myform').submit()" href="#"><i class="fa fa-trash" style="font-size:20px"></i></a>                         
+                              <button style="border:none;" type="submit"><a href="#"><i class="fa fa-trash" style="font-size:20px"></i></a> </button>                         
                             </form>
                             </td>
                           </tr>

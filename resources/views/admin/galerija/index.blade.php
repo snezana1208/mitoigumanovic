@@ -79,11 +79,11 @@
                             <td>
                              {{-- <a href="/admin.letopis.show/{{$post->id}}"><i class="fa fa-eye" style="font-size:20px"></i></a> --}}
                              {{-- <a href="/admin.letopis.edit/{{$post->id}}"><i class="fa fa-edit" style="font-size:20px"></i></a> --}}
-                             {{-- <form action="/admin.galerija.destroy/{{ $image->id }}" id="myform" method="POST">
+                             <form action="/admin.galerija.destroy/{{ $image->id }}" id="myform" method="POST">
                               @csrf
                               @method('DELETE')
-                              <a onclick="document.getElementById('myform').submit()" href="#"><i class="fa fa-trash" style="font-size:20px"></i></a>                         
-                            </form> --}}
+                              <button style="border:none;" type="submit"><a href="#"><i class="fa fa-trash" style="font-size:20px"></i></a> </button>                         
+                            </form>
                             </td>
                           </tr>
                         @endforeach
