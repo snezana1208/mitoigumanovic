@@ -13,11 +13,11 @@
         <div class="row">
             <div class="col-12">
                 <div class="page-title inner">
-                    <h1 class="title">{{$post->title}}</h1>
+                    {{-- <h1 class="title">{{$post->title}}</h1> --}}
                     <div class="breadcrumbs">
                         <ul class="jus-ct">
-                            <li><a href="/" class="f-rubik">Почетна</a></li>
-                            <li><p class="breadcrumbs-inner f-rubik">{{$post->title}}</p></li>
+                            {{-- <li><a href="/" class="f-rubik">Почетна</a></li>
+                            <li><p class="breadcrumbs-inner f-rubik">{{$post->title}}</p></li> --}}
                         </ul>
                     </div>
                 </div>
