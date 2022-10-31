@@ -12,8 +12,8 @@
                             <div class="owl-carousel owl-theme none dots-none">
                                 <div class="item-slider-2">
                                     <div class="box-content">
-                                        <div class="sub f-rubik clr-pri-3">Основна школа</div>
-                                        <div class="title clr-pri-2">"Мито Игумановић"</div>
+                                        <div class="sub f-rubik clr-pri-1">Основна школа</div>
+                                        <div class="title clr-pri-1">"Мито Игумановић"</div>
                                         {{-- <p class="wrap f-rubik">Sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p> --}}
                                         <div class="btn-slider">
                                             <a href="classes.html" class="fl-btn st-2">
@@ -29,7 +29,7 @@
                                         <div class="image"><img src="assets/images/common/slider-2.jpg" alt="Image"></div>
                                     </div> --}}
                                 </div>
-                                <div class="item-slider-2">
+                                {{-- <div class="item-slider-2">
                                     <div class="box-content">
                                         <div class="sub f-rubik clr-pri-3">Smart kindergarten</div>
                                         <div class="title clr-pri-2">We’re Best Kids Study Center</div>
@@ -47,7 +47,7 @@
                                     <div class="box-feature">
                                         <div class="image"><img src="assets/images/common/slider-2.jpg" alt="Image"></div>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div><!--/.themesflat-carousel-->
                 </div><!--/.slider-2-->

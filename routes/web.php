@@ -19,7 +19,7 @@ Route::get('/', function () {
 });
 
 Route::get('/about', 'PagesController@about');
-Route::get('/dokumenta', 'PagesController@dokumenta');
+// Route::get('/dokumenta', 'PagesController@dokumenta');
 Route::get('/istorijat', 'PagesController@istorijat');
 Route::get('/zaposleni', 'PagesController@zaposleni');
 Route::get('/savet_roditelja', 'PagesController@savet_roditelja');
@@ -54,6 +54,12 @@ Route::get('/upis_prvaka', 'PagesController@upis_prvaka');
 Route::get('/psiholog_savetuje', 'PagesController@psiholog_savetuje');
 Route::get('/pedagog_savetuje', 'PagesController@pedagog_savetuje');
 Route::get('/upis', 'PagesController@upis');
+
+Route::get('/javne_nabavke', 'PagesController@javne_nabavke');
+Route::get('/projekti', 'PagesController@projekti');
+Route::get('/skolska_dokumenta', 'PagesController@skolska_dokumenta');
+Route::get('/skolski_timovi', 'PagesController@skolski_timovi');
+
 
 
 

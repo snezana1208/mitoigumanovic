@@ -65,6 +65,26 @@ class PagesController extends Controller
         return view('pages.organizacija_rada.kalendar');
     }
 
+    public function javne_nabavke()
+    {
+        return view('pages.dokumenta.javne_nabavke');
+    }
+
+    public function projekti()
+    {
+        return view('pages.dokumenta.projekti');
+    }
+
+    public function skolska_dokumenta()
+    {
+        return view('pages.dokumenta.skolska_dokumenta');
+    }
+
+    public function skolski_timovi()
+    {
+        return view('pages.dokumenta.skolski_timovi');
+    }
+
 
 
     public function zvono()

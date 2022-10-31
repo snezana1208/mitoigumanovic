@@ -36,7 +36,7 @@
                             <div class="site-header-inner fx"> 
                                 <div id="site-logo" class="clearfix">
                                     <a href="/" class="logo">
-                                        <img  src="/assets/images/logo/logo1.jpg" alt="Kinco">
+                                        <img  src="/assets/images/logo/logo1.jpg" alt="Logo">
                                     </a>
                                 </div>
                                 <div class="btn-menu"><span></span></div>
@@ -47,7 +47,7 @@
                                                 <a href="/">Почетна</a>
                                             </li>
                                             <li class="menu-item-has-children">
-                                                <a href="/about">О школи</a>
+                                                <a href="#">О школи</a>
                                                 <ul class="sub-menu">
                                                     <li><a href="/istorijat">Историјат</a></li>
                                                     <li><a href="/zaposleni">Запослени</a></li> 
@@ -65,7 +65,7 @@
                                                 <ul class="sub-menu">
                                                     <li><a href="/kalendar">Школски календар</a></li>
                                                     <li><a href="/zvono">Звоно</a></li> 
-                                                    <li><a href="/raspored">Распореди</a>
+                                                    <li class="inner-menu-item current-item"><a href="/raspored">Распореди</a>
                                                         <ul class="sub-menu">
                                                             <li><a href="/rasporedimr">Распореди за млађе разреде</a></li>
                                                             <li><a href="/rasporedisr">Распоред за старије разреде</a></li>
@@ -77,7 +77,7 @@
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children {{ request()->is('students') ? 'current-menu-item' : '' }}">
-                                                <a href="/students">За Ђаке</a>
+                                                <a href="#">За Ђаке</a>
                                                 <ul class="sub-menu">
                                                     <li><a href="/djacki_parlament">Ђачки парламент</a></li>
                                                     <li><a href="/zavrsni_ispit">Завршни испит</a></li>
@@ -87,14 +87,14 @@
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children {{ request()->is('parents') ? 'current-menu-item' : '' }}">
-                                                <a href="/parents">За родитеље</a>
+                                                <a href="#">За родитеље</a>
                                                 <ul class="sub-menu">
                                                     <li class="inner-menu-item current-item"><a href="/otvorena_vrata">Отворена врата</a>
                                                         <ul class="sub-menu">
                                                             <li><a href="/termini">Термини индивидуалних разговора</a></li>
                                                         </ul>
                                                     </li>
-                                                    <li><a href="/rasporedi">Распореди</a>
+                                                    <li class="inner-menu-item current-item"><a href="/rasporedi">Распореди</a>
                                                         <ul class="sub-menu">
                                                             <li><a href="/rasporedikosj">Распореди писаних провера за Косјерић</a></li>
                                                             <li><a href="/rasporedisc">Распоред писаних провера за Сечу реку</a></li>
@@ -106,8 +106,8 @@
                                                     <li><a href="/pedagog_savetuje">Педагог саветује</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="menu-item {{ request()->is('about') ? 'current-menu-item' : '' }}">
-                                                <a href="/dokumenta">Документа</a>
+                                            <li class="menu-item-has-children {{ request()->is('about') ? 'current-menu-item' : '' }}">
+                                                <a href="#">Документа</a>
                                                 <ul class="sub-menu">
                                                     <li><a href="/javne_nabavke">Јавне набавке</a></li>
                                                     <li><a href="/skolska_dokumenta">Школска документа</a></li>
