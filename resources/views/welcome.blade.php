@@ -346,7 +346,7 @@
                 <div class="sc-service st-4 fl-scale wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
                     <div class="box-feature inner-scale"><img src="assets/images/common/onlajn-nastava.jpg" alt="Image"></div>
                     <div class="box-content">
-                        <h4 class="title"><a href="program.html" class="clr-pri-1">ONLINE настава</a></h4>
+                        <h4 class="title"><a href="https://classroom.google.com/u/0/" class="clr-pri-1">ONLINE настава</a></h4>
                         {{-- <p class="sub f-mulish clr-pri-1">Quis autem vel eum rehenderit</p> --}}
                     </div>
                 </div>
@@ -503,7 +503,7 @@
                     </div>
                     <div class="inner-sc-contact">
                         <div class="box-btn">
-                            <a href="contact.html" class="fl-btn st-9">
+                            <a href="/kontakt" class="fl-btn st-9">
                                 <span class="inner">Контакт</span>
                             </a>
                         </div>
