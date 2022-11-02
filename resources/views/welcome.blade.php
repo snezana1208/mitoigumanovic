@@ -16,7 +16,7 @@
                                         <div class="title clr-pri-1">"Мито Игумановић"</div>
                                         {{-- <p class="wrap f-rubik">Sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p> --}}
                                         <div class="btn-slider">
-                                            <a href="classes.html" class="fl-btn st-2">
+                                            <a href="/kontakt" class="fl-btn st-2">
                                                 <span class="inner">Контактирајте нас</span>
                                             </a>
                                         </div>
@@ -469,69 +469,25 @@
                     <h3 class="title clr-pri-2">Ваша деца су и наша деца</h3>
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-12">
-                <div class="sc-gallery wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">
-                    <div class="box-feature active">
-                        <img src="assets/images/common/sc-gallery-1.jpg" alt="Image">
-                        <div class="overlay"></div>
-                        <div class="box-content">
-                            <h5 class="title"><a href="gallery.html" class=" clr-pri-2">Outdoor & Gaming</a></h5>
-                            <p class="f-rubik">kindergarten</p>
+            @foreach ($images as $image)
+                <div class="col-xl-4 col-lg-4 col-md-4 col-12">
+                    <div class="sc-gallery wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">
+                        <div class="box-feature">
+                            <img src="/storage/galerija/{{$image->name}}" alt="Image">
+                            <div class="overlay"></div>
                         </div>
                     </div>
+                </div>                
+            @endforeach
+
+            <div class="style fx fx-style2">
+                <div class="box-btn">
+                    <a href="/galerija" class="fl-btn st-9">
+                        <span class="inner">Галерија</span>
+                    </a>
                 </div>
             </div>
 
-            <div class="col-xl-4 col-lg-4 col-md-4 col-12">
-                <div class="sc-gallery wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">
-                    <div class="box-feature">
-                        <img src="assets/images/common/sc-gallery-2.jpg" alt="Image">
-                        <div class="overlay"></div>
-                        <div class="box-content">
-                            <h5 class="title"><a href="gallery.html" class=" clr-pri-2">Outdoor & Gaming</a></h5>
-                            <p class="f-rubik">kindergarten</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-12">
-                <div class="sc-gallery wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">
-                    <div class="box-feature">
-                        <img src="assets/images/common/sc-gallery-3.jpg" alt="Image">
-                        <div class="overlay"></div>
-                         <div class="box-content">
-                            <h5 class="title"><a href="gallery.html" class=" clr-pri-2">Outdoor & Gaming</a></h5>
-                            <p class="f-rubik">kindergarten</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-6 col-lg-6 col-md-6 col-12">
-                <div class="sc-gallery mg-bt wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">
-                    <div class="box-feature">
-                        <img src="assets/images/common/sc-gallery-4.jpg" alt="Image">
-                        <div class="overlay"></div>
-                        <div class="box-content">
-                            <h5 class="title"><a href="gallery.html" class=" clr-pri-2">Outdoor & Gaming</a></h5>
-                            <p class="f-rubik">kindergarten</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-6 col-lg-6 col-md-6 col-12">
-                <div class="sc-gallery mgbt-0 wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">
-                    <div class="box-feature">
-                        <img src="assets/images/common/sc-gallery-5.jpg" alt="Image">
-                        <div class="overlay"></div>
-                        <div class="box-content">
-                            <h5 class="title"><a href="gallery.html" class=" clr-pri-2">Outdoor & Gaming</a></h5>
-                            <p class="f-rubik">kindergarten</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </section>

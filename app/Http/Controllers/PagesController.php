@@ -16,6 +16,19 @@ use Illuminate\Http\Request;
 
 class PagesController extends Controller
 {
+
+    public function welcome()
+    {
+        $images = Galerija::orderBy('created_at', 'desc')->take(3)->get();
+        return view('/welcome', compact('images'));
+    }
+
+    public function kontakt()
+    {
+        return view('pages.kontakt');
+    }
+
+
     public function vesti()
     {
         $posts = Vesti::OrderBy('created_at', 'desc')->get();
