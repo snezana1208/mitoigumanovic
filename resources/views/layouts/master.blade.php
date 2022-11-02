@@ -57,7 +57,7 @@
                                                     <li><a href="/galerija">Галерија</a></li>  
                                                 </ul>
                                             </li>
-                                            <li class="menu-item {{ request()->is('about') ? 'current-menu-item' : '' }}" >
+                                            <li class="menu-item {{ request()->is('/vesti') ? 'current-menu-item' : '' }}" >
                                                 <a href="/vesti">Вести</a>
                                             </li>
                                             <li class="menu-item-has-children">
@@ -117,6 +117,9 @@
                                             </li>
                                             <li class="menu-item {{ request()->is('about') ? 'current-menu-item' : '' }}">
                                                 <a href="/letopis">Летопис</a>
+                                            </li>
+                                            <li class="menu-item {{ request()->is('about') ? 'current-menu-item' : '' }}">
+                                                <a href="/kontakt">Контакт</a>
                                             </li>
                                         </ul>
                                         <!-- /.menu -->

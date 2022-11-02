@@ -14,9 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+Route::get('/', 'PagesController@welcome');
+Route::get('/kontakt', 'PagesController@kontakt');
 
 Route::get('/about', 'PagesController@about');
 // Route::get('/dokumenta', 'PagesController@dokumenta');
@@ -109,16 +111,6 @@ Route::get('/admin.upis_prvaka.edit/{id}', 'UpisPrvakaController@edit');
 Route::put('/admin.upis_prvaka/{posts}', 'UpisPrvakaController@update');
 Route::delete('/admin.upis_prvaka.destroy/{id}', 'UpisPrvakaController@destroy');
 Route::post('/upload', 'UpisPrvakaController@uploadImage')->name('upload');
-
-
-Route::get('/admin.savet_roditelja', 'SavetRoditeljaController@index');
-Route::get('/admin.savet_roditelja.create', 'SavetRoditeljaController@create');
-Route::post('/admin.savet_roditelja.store', 'SavetRoditeljaController@store');
-Route::get('/admin.savet_roditelja.show/{id}', 'SavetRoditeljaController@show');
-Route::get('/admin.savet_roditelja.edit/{id}', 'SavetRoditeljaController@edit');
-Route::put('/admin.savet_roditelja/{posts}', 'SavetRoditeljaController@update');
-Route::delete('/admin.savet_roditelja.destroy/{id}', 'SavetRoditeljaController@destroy');
-Route::post('/upload', 'SavetRoditeljaController@uploadImage')->name('upload');
 
 
 Route::get('/admin.zavrsni_ispit', 'ZavrsniIspitController@index');

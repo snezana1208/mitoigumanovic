@@ -156,12 +156,6 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="admin.savet_roditelja">
-              <i class="icon-help menu-icon"></i>
-              <span class="menu-title">Савет родитеља</span>
-            </a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="/admin.zavrsni_ispit">
               <i class="icon-help menu-icon"></i>
               <span class="menu-title">Завршни испит</span>
