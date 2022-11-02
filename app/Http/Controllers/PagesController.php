@@ -39,8 +39,7 @@ class PagesController extends Controller
 
     public function savet_roditelja()
     {
-        $posts = SavetRoditelja::orderBy('created_at', 'desc')->get();
-        return view('pages.o_skoli.savet_roditelja', compact('posts'));
+        return view('pages.o_skoli.savet_roditelja');
     }
 
     public function biblioteka()
