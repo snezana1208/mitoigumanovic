@@ -82,9 +82,9 @@ class PagesController extends Controller
         return view('pages.dokumenta.javne_nabavke');
     }
 
-    public function projekti()
+    public function zanastavnike()
     {
-        return view('pages.dokumenta.projekti');
+        return view('pages.dokumenta.zanastavnike');
     }
 
     public function skolska_dokumenta()

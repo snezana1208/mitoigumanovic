@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Шкоски тимови')
+@section('title', 'Школски тимови')
 
 @section('content')
 <section class="tf-page-title">
@@ -12,11 +12,11 @@
         <div class="row">
             <div class="col-12">
                 <div class="page-title inner">
-                    <h1 class="title">Шкоски тимови</h1>
+                    <h1 class="title">Школски тимови</h1>
                     <div class="breadcrumbs">
                         <ul class="jus-ct">
                             <li><a href="/" class="f-rubik">Почетна</a></li>
-                            <li><p class="breadcrumbs-inner f-rubik">Шкоски тимови </p></li>
+                            <li><p class="breadcrumbs-inner f-rubik">Школски тимови </p></li>
                         </ul>
                     </div>
                 </div>
@@ -32,8 +32,16 @@
                     <div class="title-heading">
                         <p class="center f-mulish clr-pri-2  wow fadeIn animated" style="text-align: justify;" data-wow-delay="0.3ms" data-wow-duration="1000ms">
                             Школски тимови за школску 2022/2023. годину :
-                    <p><a target="_blank" rel="noopener noreferrer" href="assets\images/Školski tim za nasilje 2021-22.pdf">
-                        1.  Тим за заштиту од дискриминације, насиља, злостављања и занемаривања </a></p>
+                            <div class="img float-left mr-5 mt-5 mb-1">
+                                <div class="wrap-image ps-re">
+                                    <img src="assets/images/background/bg-aboutus-2.png" alt="" class="bg1-about">
+                                    <div class="image p-l70"><img src="assets/images/Timovi_page-0001.jpg" alt="Images"></div>
+                                    <div class="image p-l70"><img src="assets/images/Timovi_page-0002.jpg" alt="Images"></div>
+                                    <div class="image p-l70"><img src="assets/images/Timovi_page-0003.jpg" alt="Images"></div>
+                                    <div class="image p-l70"><img src="assets/images/Timovi_page-0004.jpg" alt="Images"></div>
+                                    
+                                </div>
+                            </div>
                     
                        
 

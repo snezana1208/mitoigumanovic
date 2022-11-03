@@ -38,15 +38,44 @@
                     2. Годишњи план рада за школску 2022/2023. годину</a></p>
                         <p><a target="_blank" rel="noopener noreferrer" href="assets\images/Прилози.pdf">
                         3. Прилози уз Годишњи план образовно-васпитног рада за школску 2022/23. годину</a></p>
-                    <p><a target="_blank" rel="noopener noreferrer" href="assets\images/Извештај о раду школе 2021-2022pdf">
+                    <p><a target="_blank" rel="noopener noreferrer" href="assets\images/Извештај о раду школе 2021-2022.pdf">
                         4. Извештај о раду школе 2021-2022</a></p>
                         <p><a target="_blank" rel="noopener noreferrer" href="assets\images/statut 2018.pdf">
                           5. Статут школе</a></p>
                         <p><a target="_blank" rel="noopener noreferrer" href="assets\images/Izmene i dopune statuta.pdf">
                            6. Измена и допуна статута школе</a></p>
-                       
-
-
+                
+                            <p class="center f-mulish clr-pri-2  wow fadeIn animated" style="text-align: justify;" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                                ПРАВИЛНИЦИ И ЗАКОНИ:
+                            <p><a target="_blank" rel="noopener noreferrer" href="assets\images/Skolski razvojni plan.pdf">
+                                    1. Школски развојни план</a></p>
+                            <p><a target="_blank" rel="noopener noreferrer" href="assets\images/zakon o izmenama i dopunama.pdf">
+                                        2. Закон о изменама и допунама Закона о oсновном образовању и васпитању</a></p>
+                            <p><a target="_blank" rel="noopener noreferrer" href="assets\images/pravilnik o vrednovanju kvaliteta rada ustanove.pdf">
+                                            3. Правилник о вредновању квалитета рада установе</a></p>
+                            <p><a target="_blank" rel="noopener noreferrer" href="assets\images/pravilnik o model ustanovi.pdf">
+                                                4. Правилник о модел установи</a></p> 
+                            <p><a target="_blank" rel="noopener noreferrer" href="assets\images/zakon o osnovama sistema obrazovanja i vaspitanja.pdf">
+                                                    5. Закон о основама система образовања и васпитања</a></p> 
+                            <p><a target="_blank" rel="noopener noreferrer" href="assets\images/zakon o osnovnom obrazovanju i vaspitanju.pdf">
+                                                        6. Закон о основном образовању и васпитању</a></p>  
+                            <p><a target="_blank" rel="noopener noreferrer" href="assets\images/preporuke za planiranje obrazovno vaspitnog rada.pdf">
+                             7. Препоруке за планирање образовно-васпитног рада у складу са новим програмима наставе и учења за основно образовање и васпитање</a></p>           
+                             <p><a target="_blank" rel="noopener noreferrer" href="assets\images/pravilnik o nastavnom programu za peti razred.pdf">
+                            8. Правилник о наставном програму за пети разред основног образовања и васпитања</a></p>      
+                            <p><a target="_blank" rel="noopener noreferrer" href="assets\images/pravilnik o nacionalnom okviru obrazovanja i vaspitanja.pdf">
+                                9. Правилник о националном оквиру образовања и васпитања</a></p>  
+                                <p><a target="_blank" rel="noopener noreferrer" href="assets\images/pravilnik o vrednovanju.pdf">
+                            10. Правилник о вредновању обавезног стручног усавршавања у установи</a></p>    
+                            <p><a target="_blank" rel="noopener noreferrer" href="assets\images/pravilnik o ocenjivanju.pdf">
+                                11. Правилник о оцењивању ученика у основном образовању и васпитању</a></p>   
+                                <p><a target="_blank" rel="noopener noreferrer" href="assets\images/pravilnik o stalnom strucnom usavrsavanju.pdf">
+                                    12. Правилник о сталном стручном усавршавању и напредовању у звању наставника, васпитача и стручних сарадника</a></p>  
+                                    <p><a target="_blank" rel="noopener noreferrer" href="assets\images/pravilnik o obavljanju drustveno korisnog rada.pdf">
+                                        13. Правилник о обављању друштвено корисног, односно хуманитарног рада</a></p>   
+                                        <p><a target="_blank" rel="noopener noreferrer" href="assets\images/pravilnik o standardima kvaliteta.pdf">
+                                            14. Правилник о стандардима квалитета рада установе</a></p>                            
+   
 
           
                         </p>

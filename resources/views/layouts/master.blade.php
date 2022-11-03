@@ -111,7 +111,7 @@
                                                 <ul class="sub-menu">
                                                     <li><a href="/javne_nabavke">Јавне набавке</a></li>
                                                     <li><a href="/skolska_dokumenta">Школска документа</a></li>
-                                                    <li><a href="/projekti">Пројекти</a></li>
+                                                    <li><a href="/zanastavnike">За наставнике</a></li>
                                                     <li><a href="/skolski_timovi">Школски тимови</a></li>
                                                 </ul>
                                             </li>

@@ -58,7 +58,7 @@ Route::get('/pedagog_savetuje', 'PagesController@pedagog_savetuje');
 Route::get('/upis', 'PagesController@upis');
 
 Route::get('/javne_nabavke', 'PagesController@javne_nabavke');
-Route::get('/projekti', 'PagesController@projekti');
+Route::get('/zanastavnike', 'PagesController@zanastavnike');
 Route::get('/skolska_dokumenta', 'PagesController@skolska_dokumenta');
 Route::get('/skolski_timovi', 'PagesController@skolski_timovi');
 
