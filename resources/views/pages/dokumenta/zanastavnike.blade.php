@@ -12,11 +12,11 @@
         <div class="row">
             <div class="col-12">
                 <div class="page-title inner">
-                    <h1 class="title">За наставнике'</h1>
+                    <h1 class="title">За наставнике</h1>
                     <div class="breadcrumbs">
                         <ul class="jus-ct">
                             <li><a href="/" class="f-rubik">Почетна</a></li>
-                            <li><p class="breadcrumbs-inner f-rubik">За наставнике' </p></li>
+                            <li><p class="breadcrumbs-inner f-rubik">За наставнике </p></li>
                         </ul>
                     </div>
                 </div>
@@ -62,34 +62,33 @@
                                 ПРЕВЕНЦИЈА НАСИЉА
                                 <p class="center f-mulish clr-pri-2  wow fadeIn animated" style="text-align: justify;" data-wow-delay="0.3ms" data-wow-duration="1000ms">
                                     У прилогу имате корисне линкове ради превенције и спречавања насиља:
-                            <p><a target="_blank" rel="noopener noreferrer" href="assets\images/Skolski razvojni plan.pdf">
-                                    1. Школски развојни план</a></p>
-                            <p><a target="_blank" rel="noopener noreferrer" href="assets\images/zakon o izmenama i dopunama.pdf">
-                                        2. Закон о изменама и допунама Закона о oсновном образовању и васпитању</a></p>
-                            <p><a target="_blank" rel="noopener noreferrer" href="assets\images/pravilnik o vrednovanju kvaliteta rada ustanove.pdf">
-                                            3. Правилник о вредновању квалитета рада установе</a></p>
-                            <p><a target="_blank" rel="noopener noreferrer" href="assets\images/pravilnik o model ustanovi.pdf">
-                                                4. Правилник о модел установи</a></p> 
-                            <p><a target="_blank" rel="noopener noreferrer" href="assets\images/zakon o osnovama sistema obrazovanja i vaspitanja.pdf">
-                                                    5. Закон о основама система образовања и васпитања</a></p> 
-                            <p><a target="_blank" rel="noopener noreferrer" href="assets\images/zakon o osnovnom obrazovanju i vaspitanju.pdf">
-                                                        6. Закон о основном образовању и васпитању</a></p>  
-                            <p><a target="_blank" rel="noopener noreferrer" href="assets\images/preporuke za planiranje obrazovno vaspitnog rada.pdf">
-                             7. Препоруке за планирање образовно-васпитног рада у складу са новим програмима наставе и учења за основно образовање и васпитање</a></p>           
-                             <p><a target="_blank" rel="noopener noreferrer" href="assets\images/pravilnik o nastavnom programu za peti razred.pdf">
-                            8. Правилник о наставном програму за пети разред основног образовања и васпитања</a></p>      
-                            <p><a target="_blank" rel="noopener noreferrer" href="assets\images/pravilnik o nacionalnom okviru obrazovanja i vaspitanja.pdf">
-                                9. Правилник о националном оквиру образовања и васпитања</a></p>  
-                                <p><a target="_blank" rel="noopener noreferrer" href="assets\images/pravilnik o vrednovanju.pdf">
-                            10. Правилник о вредновању обавезног стручног усавршавања у установи</a></p>    
-                            <p><a target="_blank" rel="noopener noreferrer" href="assets\images/pravilnik o ocenjivanju.pdf">
-                                11. Правилник о оцењивању ученика у основном образовању и васпитању</a></p>   
-                                <p><a target="_blank" rel="noopener noreferrer" href="assets\images/pravilnik o stalnom strucnom usavrsavanju.pdf">
-                                    12. Правилник о сталном стручном усавршавању и напредовању у звању наставника, васпитача и стручних сарадника</a></p>  
-                                    <p><a target="_blank" rel="noopener noreferrer" href="assets\images/pravilnik o obavljanju drustveno korisnog rada.pdf">
-                                        13. Правилник о обављању друштвено корисног, односно хуманитарног рада</a></p>   
-                                        <p><a target="_blank" rel="noopener noreferrer" href="assets\images/pravilnik o standardima kvaliteta.pdf">
-                                            14. Правилник о стандардима квалитета рада установе</a></p>                            
+                            <p><a target="_blank" rel="noopener noreferrer" href="https://mpn.gov.rs/vesti/video-obuka-za-zaposlene-u-ustanovama-obrazovanja-i-vaspitanja-primena-pravilnika-o-protokolu-postupanja-u-ustanovi-u-odgovoru-na-nasilje-zlostavljanje-i-zanemarivanje/">
+                                    1. Видео обука - Примена Правилника о протоколу поступања у установи у одговору на насиље, злостављање и занемаривање </a></p>
+                            <p><a target="_blank" rel="noopener noreferrer" href="https://cuvamte.gov.rs/">
+                                        2. Национална платформа - Чувам те</a></p>
+                            <p><a target="_blank" rel="noopener noreferrer" href="assets\images/vodic--deca-u-digitalnom-dobu.pdf">
+                                            3. Водич - Деца у дигиталном добу</a></p>
+                            <p><a target="_blank" rel="noopener noreferrer" href="assets\images/Obrazac za vođenje evidencije.pdf">
+                                                4. Образац за вођење евиденције </a></p> 
+                            <p><a target="_blank" rel="noopener noreferrer" href="assets\images/Pravilnik o izmenama i dopunama protokola postupanja u ustanovi u odgovoru na nasilje.pdf">
+                                                    5. Правилник о изменама и допунама протокола поступања у установи у одговору на насиље</a></p> 
+                            <p><a target="_blank" rel="noopener noreferrer" href="assets\images/Pravilnik o protokolu postupanja ustanove u slučaju nasilja.pdf">
+                                                        6. Правилник о протоколу поступања установе у случају насиља</a></p>  
+                            <p><a target="_blank" rel="noopener noreferrer" href="assets\images/Pravilnik-diskriminacija.pdf">
+                             7. Правилник дискриминација</a></p>           
+                             <p><a target="_blank" rel="noopener noreferrer" href="assets\images/Pravilnik-o-Protokolu-postupanja-u-ustanovi-u-odgovoru-na-nasilje-zlostavljanje-i-zanemarivanje.pdf">
+                            8. Правилник о протоколу и поступања у установи у одговору на насиље, злостављање и занемаривање</a></p>      
+                            <p><a target="_blank" rel="noopener noreferrer" href="https://iskljucinasilje.rs/">
+                                9. Искључи насиље</a></p>  
+                                <p><a target="_blank" rel="noopener noreferrer" href="assets\images/sta je danas bilo u skoli.pdf">
+                            10. Шта је данас било у школи?</a></p>    
+                            <p><a target="_blank" rel="noopener noreferrer" href="assets\images/protokol.pdf">
+                                11. Протокол о превенцији насиља</a></p>   
+                                <p><a target="_blank" rel="noopener noreferrer" href="assets\images/prirucnik nasilje.pdf">
+                                    12. Приручник за примену посебног протокола</a></p>  
+                                    <p><a target="_blank" rel="noopener noreferrer" href="assets\images/podsetnik.pdf">
+                                        13. Пoдсетник о превенцији насиља</a></p>   
+                                                                  
    
 
           
