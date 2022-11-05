@@ -729,7 +729,7 @@
                         </div>
                         <h6 class="title-article-post"><a href="https://zuov.gov.rs/">Завод за унапређивање образовања и васпитања</a></h6>
                         <div class="btn-rm">
-                            <a href="https://zuov.gov.rs/ class="fl-btn st-4 active">
+                            <a href="https://zuov.gov.rs/" class="fl-btn st-4">
                                 <span class="inner">Детаљније</span>
                             </a>
                         </div>
