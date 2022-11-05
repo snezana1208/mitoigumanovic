@@ -19,8 +19,9 @@ class PagesController extends Controller
 
     public function welcome()
     {
+        $posts = Vesti::orderBy('created_at', 'desc')->take(5)->get();
         $images = Galerija::orderBy('created_at', 'desc')->take(3)->get();
-        return view('/welcome', compact('images'));
+        return view('/welcome', compact('images', 'posts'));
     }
 
     public function kontakt()

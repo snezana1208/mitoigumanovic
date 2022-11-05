@@ -79,70 +79,21 @@
             </div>
             <div class="col-12">
                 <div class="fl-discovery">
-                    <div class="sc-discovery wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="800ms">
-                        <div class="inner-discovery">
-                            <div class="box-icon st-1">
-                                <i class="fas fa-check"></i>
+                    @foreach ($posts as $post)
+                        <div class="sc-discovery wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="800ms">
+                            <div class="inner-discovery">
+                                <div class="box-icon st-1">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <h5 class="title"><a href="about.html">{{$post->title}}</a></h5>
+                                {{-- <p class="sub f-mulish">Данас је Светски дан пешачења!</p> --}}
+                                <a href="/admin.vesti.show/{{$post->id}}" class="fl-btn st-10">
+                                    <span class="inner">Опширније</span>
+                                </a>
                             </div>
-                            <h5 class="title"><a href="about.html">СВЕТСКИ ДАН ПЕШАЧЕЊА!</a></h5>
-                            <p class="sub f-mulish">Данас је Светски дан пешачења!</p>
-                            <a href="about.html" class="fl-btn st-10">
-                                <span class="inner">Опширније</span>
-                            </a>
-                        </div>
-                    </div><!--/.sc-discovery-->
+                        </div><!--/.sc-discovery-->                        
+                    @endforeach
 
-                    <div class="sc-discovery active wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
-                        <div class="inner-discovery">
-                            <div class="box-icon st-2">
-                                <i class="fas fa-check"></i>
-                            </div>
-                            <h5 class="title"><a href="about.html">ОБАВЕШТЕЊЕ ЗА РОДИТЕЉЕ ПЕТАКА</a></h5>
-                            <p class="sub f-mulish">Срећан почетак школске године и пуно успеха у раду !</p>
-                            <a href="about.html" class="fl-btn st-10">
-                                <span class="inner">Опширније</span>
-                            </a>
-                        </div>
-                    </div><!--/.sc-discovery-->
-
-                    <div class="sc-discovery wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">
-                        <div class="inner-discovery">
-                            <div class="box-icon st-3">
-                                <i class="fas fa-check"></i>
-                            </div>
-                            <h5 class="title"><a href="about.html">ОБАВЕШТЕЊЕ ЗА РОДИТЕЉЕ ПРВАКА</a></h5>
-                            <p class="sub f-mulish">Добро нам дошли!</p>
-                            <a href="about.html" class="fl-btn st-10">
-                                <span class="inner">Опширније</span>
-                            </a>
-                        </div>
-                    </div><!--/.sc-discovery-->
-
-                    <div class="sc-discovery wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1400ms">
-                        <div class="inner-discovery">
-                            <div class="box-icon st-4">
-                                <i class="fas fa-check"></i>
-                            </div>
-                            <h5 class="title"><a href="about.html">ПРИРЕДБА ЗА РОДИТЕЉЕ ЗА КРАЈ ШКОЛСКЕ ГОДИНЕ</a></h5>
-                            <p class="sub f-mulish"></p>
-                            <a href="about.html" class="fl-btn st-10">
-                                <span class="inner">Опширније</span>
-                            </a>
-                        </div>
-                    </div><!--/.sc-discovery-->
-
-                    <div class="sc-discovery wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1600ms">
-                        <div class="inner-discovery">
-                            <div class="box-icon st-5">
-                                <i class="fas fa-check"></i>
-                            </div>
-                            <h5 class="title"><a href="about.html">ТАКМИЧЕЊА</a></h5>
-                            <p class="sub f-mulish"></p>
-                            <a href="about.html" class="fl-btn st-10">
-                                <span class="inner">Опширније</span>
-                            </a>
-                        </div>
-                    </div><!--/.sc-discovery-->
                 </div>
             </div>
         </div>
