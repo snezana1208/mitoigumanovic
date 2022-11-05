@@ -32,10 +32,10 @@
                     <div class="wrap-sc-event">
                     <div class="sc-event-box active fx wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
                         <div class="image">
-                            <img src="/assets/images/common/01.vents.jpg" alt="">
+                            <a href="/admin.ucenici_generacija.show/{{$post->id}}"><img src="/storage/post_image/{{$post->image}}" alt=""></a>
                         </div>
                         <div class="content">
-                            <h3><a href="event-details.html">{{$post->title}}</a></h3>
+                            <h3><a href="/admin.ucenici_generacija.show/{{$post->id}}">{{$post->title}}</a></h3>
                             <ul>
                                 {{-- <li><span><i class="far fa-map-marker-alt"></i>55 Main Street,2nd Block, 3rd Floor, New York City</span></li> --}}
                                 <li><span><i class="far fa-calendar-alt"></i>{{$post->created_at->toFormattedDateString()}}</span></li>

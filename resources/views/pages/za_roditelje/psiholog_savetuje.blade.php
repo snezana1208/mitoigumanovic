@@ -27,35 +27,26 @@
 <section class="tf-section tf-blog-list">
     <div class="container">
         <div class="row">
-            <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+            <div class="col-md-12">
                 @foreach ($posts as $post)
-                    <article class="box-blog-list">
-                        <div class="box-feature wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">
-                            <img src="assets/images/post/box-blog-list2.jpg" alt="Image">
-                            <div class="overlay jus-ct">
-                                <a href="https://www.youtube.com/watch?v=CZsARU7HcBI" class="fl-play st-1 popup-youtube">
-                                    <i class="fas fa-play"></i>
-                                </a>
+                    <div class="wrap-sc-event">
+                        <div class="sc-event-box active fx wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+                            <div class="image">
+                                <a href="/admin.psiholog.show/{{$post->id}}"><img src="/storage/post_image/{{$post->image}}" alt=""></a>
                             </div>
-                        </div>
-                        <div class="box-content">
-                            <div class="meta-post st-2">
-                                <ul class="fx">
-                                    <li class="fx"><i class="far fa-calendar-alt clr-pri-3"></i>{{$post->created_at->toFormattedDateString()}}</li>
-                                    {{-- <li class="fx"><i class="far fa-comment-alt-dots clr-pri-3"></i>Comments (05)</li> --}}
+                            <div class="content">
+                                <h3><a href="/admin.psiholog.show/{{$post->id}}">{{$post->title}}</a></h3>
+                                <ul>
+                                    {{-- <li><span><i class="far fa-map-marker-alt"></i>55 Main Street,2nd Block, 3rd Floor, New York City</span></li> --}}
+                                    <li><span><i class="far fa-calendar-alt"></i>{{$post->created_at->toFormattedDateString()}}</span></li>
                                 </ul>
+                                
                             </div>
-                            <h3 class="title-article-post"><a href="b">{{$post->title}}</a></h3>
-                            <p class="sub f-rubik">
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam, eaque ipsa quae abillo inventore veritatis et quasi architecto
-                            </p>
-                            <div class="box-btn">
-                                <a href="/admin.psiholog.show/{{$post->id}}" class="fl-btn st-1">
-                                    <span class="inner">read more</span>
-                                </a>
-                            </div>
+                            <a href="/admin.psiholog.show/{{$post->id}}" class="fl-btn st-1">
+                                <span class="inner">Детаљније</span>
+                            </a>
                         </div>
-                    </article>
+                    </div>
                 @endforeach
 
 

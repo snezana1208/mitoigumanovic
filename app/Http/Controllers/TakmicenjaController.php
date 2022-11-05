@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Takmicenja;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\File;
 
 class TakmicenjaController extends Controller
 {
@@ -36,8 +37,23 @@ class TakmicenjaController extends Controller
      */
     public function store(Request $request)
     {
+
+        if ($request->hasFile('image')) {
+            $filenameWithExt = $request->file('image')->getClientOriginalName();
+            //Get just filename
+            $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
+            //Get just extension
+            $extension = $request->file('image')->getClientOriginalExtension();
+            //Filename to store
+            $fileNameToStore = $filename . '_' . time() . '.' . $extension;
+            $path = $request->file('image')->storeAs('public/post_image', $fileNameToStore);
+        } else {
+            $fileNameToStore = 'noimage.jpg';
+        }
+
         $posts = new Takmicenja;
         $posts->title = $request->input('title');
+        $posts->image = $fileNameToStore;
         $posts->body = $request->input('body');
         $posts->save();
 
@@ -95,6 +111,26 @@ class TakmicenjaController extends Controller
     public function update(Request $request, $id)
     {
 
+        $post = Takmicenja::find($id);
+
+        if ($request->hasFile('image')) {
+
+            $path = 'storage/post_image/' . $post->image;
+            if (File::exists($path)) {
+                File::delete($path);
+            }
+            $filenameWithExt = $request->file('image')->getClientOriginalName();
+            //Get just filename
+            $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
+            //Get just extension
+            $extension = $request->file('image')->getClientOriginalExtension();
+            //Filename to store
+            $fileNameToStore = $filename . '_' . time() . '.' . $extension;
+            $path = $request->file('image')->storeAs('public/post_image', $fileNameToStore);
+        } else {
+            $fileNameToStore = 'noimage.jpg';
+        }
+
         if ($request->hasFile('upload')) {
             $originName = $request->file('upload')->getClientOriginalName();
             //Get just filename
@@ -110,8 +146,9 @@ class TakmicenjaController extends Controller
         }
 
         
-        $post = Takmicenja::find($id);
+        
         $post->title = $request->input('title');
+        $post->image = $fileNameToStore;
         $post->body = $request->input('body');
         $post->save();
 

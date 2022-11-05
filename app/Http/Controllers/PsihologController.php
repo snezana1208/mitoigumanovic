@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Psiholog;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\File;
 
 class PsihologController extends Controller
 {
@@ -36,8 +37,24 @@ class PsihologController extends Controller
      */
     public function store(Request $request)
     {
+
+        if ($request->hasFile('image')) {
+            $filenameWithExt = $request->file('image')->getClientOriginalName();
+            //Get just filename
+            $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
+            //Get just extension
+            $extension = $request->file('image')->getClientOriginalExtension();
+            //Filename to store
+            $fileNameToStore = $filename . '_' . time() . '.' . $extension;
+            $path = $request->file('image')->storeAs('public/post_image', $fileNameToStore);
+        } else {
+            $fileNameToStore = 'noimage.jpg';
+        }
+
+
         $posts = new Psiholog();
         $posts->title = $request->input('title');
+        $posts->image = $fileNameToStore;
         $posts->body = $request->input('body');
         $posts->save();
 
@@ -94,6 +111,28 @@ class PsihologController extends Controller
      */
     public function update(Request $request, $id)
     {
+
+        $post = Psiholog::find($id);
+
+        if ($request->hasFile('image')) {
+
+            $path = 'storage/post_image/' . $post->image;
+            if (File::exists($path)) {
+                File::delete($path);
+            }
+            $filenameWithExt = $request->file('image')->getClientOriginalName();
+            //Get just filename
+            $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
+            //Get just extension
+            $extension = $request->file('image')->getClientOriginalExtension();
+            //Filename to store
+            $fileNameToStore = $filename . '_' . time() . '.' . $extension;
+            $path = $request->file('image')->storeAs('public/post_image', $fileNameToStore);
+        } else {
+            $fileNameToStore = 'noimage.jpg';
+        }
+
+
         if ($request->hasFile('upload')) {
             $originName = $request->file('upload')->getClientOriginalName();
             //Get just filename
@@ -108,8 +147,9 @@ class PsihologController extends Controller
             return response()->json(['filename' => $fileName, 'uploaded' => 1, 'url' => $url]);
         }
 
-        $post = Psiholog::find($id);
+        
         $post->title = $request->input('title');
+        $post->image = $fileNameToStore;
         $post->body = $request->input('body');
         $post->save();
 

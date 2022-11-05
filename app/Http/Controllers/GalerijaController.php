@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Galerija;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
 
 class GalerijaController extends Controller
@@ -110,10 +111,10 @@ class GalerijaController extends Controller
     public function destroy($id)
     {
         $image = Galerija::find($id);
-
-        if($image->images ){
-            //Delete image
-            Storage::delete('storage/galerija/'.$image->images);
+        
+        $path = 'storage/galerija/' . $image;
+        if (File::exists($path)) {
+            File::delete($path);
         }
         
 
