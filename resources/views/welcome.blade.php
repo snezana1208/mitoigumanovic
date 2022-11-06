@@ -287,7 +287,7 @@
                 <div class="sc-service st-3 fl-scale wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="800ms">
                     <div class="box-feature inner-scale"><img src="assets/images/common/dnevnik1.jpg" alt="Image"></div>
                     <div class="box-content">
-                        <h4 class="title"><a href="/rasporedi" class="clr-pri-1">Распореди</a></h4>
+                        <h4 class="title"><a href="/rasporedisr" class="clr-pri-1">Распореди</a></h4>
                         {{-- <h4 class="sub f-mulish clr-pri-1">Распореди</h4> --}}
                     </div>
                 </div>
