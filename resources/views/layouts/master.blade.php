@@ -94,7 +94,7 @@
                                                             <li><a href="/termini">Термини индивидуалних разговора</a></li>
                                                         </ul>
                                                     </li>
-                                                    <li class="inner-menu-item current-item"><a href="/rasporedi">Распореди</a>
+                                                    <li class="inner-menu-item current-item"><a href="#">Распореди</a>
                                                         <ul class="sub-menu">
                                                             <li><a href="/rasporedikosj">Распореди писаних провера за Косјерић</a></li>
                                                             <li><a href="/rasporedisc">Распоред писаних провера за Сечу реку</a></li>
