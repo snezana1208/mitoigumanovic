@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Letopis;
+use App\Models\Vesti;
 use Illuminate\Http\Request;
 
 class DashboardController extends Controller
@@ -17,6 +19,7 @@ class DashboardController extends Controller
      */
     public function index()
     {
+        
         return view('/admin.dashboard');
     }
 
