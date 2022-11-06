@@ -87,6 +87,7 @@
                                 </div>
                                 <h5 class="title"><a href="about.html">{{$post->title}}</a></h5>
                                 {{-- <p class="sub f-mulish">Данас је Светски дан пешачења!</p> --}}
+                                <a href="/admin.vesti.show/{{$post->id}}"><img src="/storage/post_image/{{$post->image}}" alt=""></a>
                                 <a href="/admin.vesti.show/{{$post->id}}" class="fl-btn st-10">
                                     <span class="inner">Опширније</span>
                                 </a>

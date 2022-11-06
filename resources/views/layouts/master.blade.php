@@ -189,7 +189,7 @@
                             </div>
                             <div class="col-12">
                                 <div class="footer-bottom jus-ct">
-                                    <p class="copy-right">Copyright © 2022, Kinco - Kindergarten HTML Template. Designed by <a href="https://themeforest.net/user/themesflat/portfolio">Themesflat</a></p>
+                                    <p class="copy-right">Copyright © 2022,  <a href="http://www.migumanovic.edu.rs/">www.migumanovic.edu.rs</a></p>
                                 </div>
                             </div>
                         </div>

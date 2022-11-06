@@ -1,7 +1,7 @@
-@extends('layouts.app')
+@extends('layouts.auth')
 
 @section('content')
-<div class="container">
+{{-- <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
@@ -73,5 +73,49 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
+
+<div class="container-scroller">
+    <div class="container-fluid page-body-wrapper full-page-wrapper">
+      <div class="content-wrapper d-flex align-items-center auth px-0">
+        <div class="row w-100 mx-0">
+          <div class="col-lg-4 mx-auto">
+            <div class="auth-form-light text-left py-5 px-4 px-sm-5">
+              <div class="brand-logo">
+                <img src="/assets/images/logo/logo1.jpg" alt="logo">
+              </div>
+              <h4>Регистрација корисника</h4>
+              <h6 class="font-weight-light">Регистрација само у неколико корака</h6>
+              <form class="pt-3"  method="POST" action="{{ route('register') }}">
+                @csrf
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control form-control-lg" id="name" required placeholder="Име">
+                </div>
+                <div class="form-group">
+                  <input type="email" name="email" class="form-control form-control-lg" id="email" required placeholder="Имејл">
+                </div>
+                <div class="form-group">
+                  <input type="password" name="password" class="form-control form-control-lg" id="password" required placeholder="Лозинка">
+                </div>
+                <div class="form-group">
+                    <input id="password-confirm" type="password" class="form-control form-control-lg" name="password_confirmation" required placeholder="Понови лозинку" autocomplete="new-password">
+                  </div>
+                <div class="mt-3">
+                    <button type="submit" class="btn btn-block btn-info btn-lg font-weight-medium auth-form-btn">
+                        {{ __('Региструј се') }}
+                    </button>  
+                  
+                </div>
+                <div class="text-center mt-4 font-weight-light">
+                  Имате ли већ налог? <a href="/login" class="text-primary">Улогујте се</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- content-wrapper ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+  </div>
 @endsection

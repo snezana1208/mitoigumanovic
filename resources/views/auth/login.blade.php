@@ -1,7 +1,7 @@
-@extends('layouts.app')
+@extends('layouts.auth')
 
 @section('content')
-<div class="container">
+{{-- <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
@@ -69,5 +69,46 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
+<div class="container-scroller">
+    <div class="container-fluid page-body-wrapper full-page-wrapper">
+      <div class="content-wrapper d-flex align-items-center auth px-0">
+        <div class="row w-100 mx-0">
+          <div class="col-lg-4 mx-auto">
+            <div class="auth-form-light text-left py-5 px-4 px-sm-5">
+              <div class="brand-logo">
+                <img src="/assets/images/logo/logo1.jpg" alt="logo">
+              </div>
+              <h4>Улогујте се да би наставили</h4>
+              
+              <form class="pt-3" method="POST" action="{{ route('login') }}">
+                @csrf
+                <div class="form-group">
+                  <input type="email" name="email" class="form-control form-control-lg" id="email" value="{{ old('email') }}" placeholder="Имејл">
+                </div>
+                <div class="form-group">
+                  <input type="password" name="password" class="form-control form-control-lg" id="password" required autocomplete="current-password" placeholder="Лозинка">
+                </div>
+                <div class="mt-3">
+                    <button type="submit" class="btn btn-block btn-info btn-lg font-weight-medium auth-form-btn">
+                        {{ __('Улогујте се') }}
+                    </button>
+                 
+                </div>
+                <div class="my-2 d-flex justify-content-between align-items-center">
+                
+                  <a href="#" class="auth-link text-black">Заборавили сте лозинку?</a>
+                </div>
+                {{-- <div class="text-center mt-4 font-weight-light">
+                  Don't have an account? <a href="register.html" class="text-primary">Create</a>
+                </div> --}}
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- content-wrapper ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+  </div>
 @endsection
