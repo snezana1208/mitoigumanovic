@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('layouts.gallery')
 @section('title', 'Галерија')
 
 @section('content')
@@ -15,7 +15,7 @@
                     <h1 class="title">Галерија</h1>
                     <div class="breadcrumbs">
                         <ul class="jus-ct">
-                            <li><a href="index.html" class="f-rubik">Почетна</a></li>
+                            <li><a href="/" class="f-rubik">Почетна</a></li>
                             <li><p class="breadcrumbs-inner f-rubik">Галерија</p></li>
                         </ul>
                     </div>
@@ -48,14 +48,22 @@
             @foreach ($images as $image)
                 <div class="col-xl-4 col-lg-4 col-md-4 col-12">
                     <div class="sc-gallery wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">
-                        <div class="box-feature">
-                            <img src="/storage/galerija/{{$image->name}}" alt="{{$image->id}}">
-                            <div class="overlay"></div>
+                        <div class="item">
+                          {{-- <img id="myImg" src="/storage/galerija/{{$image->name}}" alt="{{$image->id}}"> --}}
+                          <a href="/storage/galerija/{{$image->name}}" class="fancybox" data-fancybox="gallery1">
+                            <img id="" src="/storage/galerija/{{$image->name}}" alt="">
+                          </a>
                         </div>
                     </div>
                 </div>
+                
             @endforeach
+           
         </div>
     </div>
 </section>
+@endsection
+
+@section('scripts')
+
 @endsection
