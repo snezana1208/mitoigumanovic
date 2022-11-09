@@ -74,7 +74,7 @@
                             </g>
                         </svg>
                     </div>
-                    <h3 class="title clr-pri-2">Најновија дешавања</h3>
+                    <h3 class="title clr-pri-2">НАЈНОВИЈА ДЕШАВАЊА</h3>
                 </div>
             </div>
             <div class="col-12">

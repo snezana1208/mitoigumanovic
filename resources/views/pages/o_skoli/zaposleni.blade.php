@@ -932,7 +932,7 @@
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
                                     <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
-                                        <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
+                                        <div class="box-feature"><img src="assets/images/common/profesor.jpg" alt="Image"></div>
                                         <div class="box-content st-2">
                                             <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Караклајић Ацо</a></h4>
                                             <p class="sub f-mulish clr-pri-1">Техника и технологија</p>
@@ -994,7 +994,7 @@
                                     <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
                                         <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
                                         <div class="box-content st-2">
-                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Снежана Глигоријевић</a></h4>
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Глигоријевић Снежана </a></h4>
                                             <p class="sub f-mulish clr-pri-1">Информатика и рачунарствво</p>
                                             <div class="social">
                                                 <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
@@ -1203,8 +1203,7 @@
                                     <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
                                         <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
                                         <div class="box-content st-2">
-                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Светлана
-                                                Савић</a></h4>
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Ђорђе Марјановић</a></h4>
                                             <p class="sub f-mulish clr-pri-1">Секретар</p>
                                             <div class="social">
                                                 <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
@@ -1220,7 +1219,7 @@
                                         <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
                                         <div class="box-content st-2">
                                             <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Милена Штулић</a></h4>
-                                            <p class="sub f-mulish clr-pri-1">Шеф рачунарства</p>
+                                            <p class="sub f-mulish clr-pri-1">Шеф рачуноводства</p>
                                             <div class="social">
                                                 <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
                                                 <a href="#"><i class="fab fa-twitter"></i></a>
@@ -1234,8 +1233,7 @@
                                     <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
                                         <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
                                         <div class="box-content st-2">
-                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Милка
-                                                Ђорђевић</a></h4>
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Живорад Глигоријевић</a></h4>
                                             <p class="sub f-mulish clr-pri-1">Благајник</p>
                                             <div class="social">
                                                 <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
@@ -1341,8 +1339,8 @@
                                     <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
                                         <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
                                         <div class="box-content st-2">
-                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Милунка
-                                                Петровић</a></h4>
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Милкица
+                                                Матић</a></h4>
                                             <p class="sub f-mulish clr-pri-1">Радник на одржавању хигијене</p>
                                             <div class="social">
                                                 <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
@@ -1357,8 +1355,7 @@
                                     <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
                                         <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
                                         <div class="box-content st-2">
-                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Стојка
-                                                Грујовић</a></h4>
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Јелена Мијатовић</a></h4>
                                             <p class="sub f-mulish clr-pri-1">Радник на одржавању хигијене</p>
                                             <div class="social">
                                                 <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
@@ -1405,8 +1402,7 @@
                                     <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
                                         <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
                                         <div class="box-content st-2">
-                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Милкица
-                                                Матић</a></h4>
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Даница Ћирјанић</a></h4>
                                             <p class="sub f-mulish clr-pri-1">Радник на одржавању хигијене</p>
                                             <div class="social">
                                                 <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
@@ -1465,7 +1461,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
+                                {{-- <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
                                     <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
                                         <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
                                         <div class="box-content st-2">
@@ -1480,12 +1476,12 @@
                                             </div> 
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 container"">
                                     <div class="sc-employee active wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
                                         <div class="box-feature"><img src="assets/images/common/sc-employee-2.jpg" alt="Image"></div>
                                         <div class="box-content st-2">
-                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Рада Лечић</a></h4>
+                                            <h4 class="name"><a href="teacher-details.html" class="clr-pri-1">Јованка Борисављевић</a></h4>
                                             <p class="sub f-mulish clr-pri-1">Радник на одржавању хигијене</p>
                                             <div class="social">
                                                 <a href="#" class="active"><i class="fab fa-facebook-f"></i></a>
